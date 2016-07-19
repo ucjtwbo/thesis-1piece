@@ -1,0 +1,104 @@
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}
+\contentsline {subsubsection}{Chapter outline}{6}{section*.4}
+\contentsline {chapter}{\numberline {2}Background}{8}{chapter.2}
+\contentsline {subsubsection}{Chapter outline}{8}{section*.5}
+\contentsline {section}{\numberline {2.1}Data entry}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The perception stage}{9}{subsection.2.1.1}
+\contentsline {subsubsection}{Distributed cognition}{9}{section*.7}
+\contentsline {subsubsection}{External representations}{9}{section*.8}
+\contentsline {subsubsection}{Memorability of data}{10}{section*.9}
+\contentsline {subsubsection}{Presenting data in a disfluent manner}{11}{section*.10}
+\contentsline {subsubsection}{Summary}{11}{section*.11}
+\contentsline {subsection}{\numberline {2.1.2}The encoding stage}{12}{subsection.2.1.2}
+\contentsline {subsubsection}{Information access cost}{12}{section*.12}
+\contentsline {subsubsection}{The effect of writing versus typing on the level of encoding}{14}{section*.13}
+\contentsline {subsubsection}{Summary}{14}{section*.14}
+\contentsline {subsection}{\numberline {2.1.3}The execution stage}{15}{subsection.2.1.3}
+\contentsline {subsubsection}{Text entry}{15}{section*.15}
+\contentsline {subsubsection}{Number entry}{16}{section*.16}
+\contentsline {subsubsection}{Summary}{17}{section*.18}
+\contentsline {subsection}{\numberline {2.1.4}The checking stage}{18}{subsection.2.1.4}
+\contentsline {subsubsection}{Double data entry}{18}{section*.19}
+\contentsline {subsubsection}{Visual checking}{18}{section*.20}
+\contentsline {subsubsection}{Lockouts}{19}{section*.21}
+\contentsline {subsubsection}{Incentives}{20}{section*.22}
+\contentsline {subsubsection}{Summary}{20}{section*.23}
+\contentsline {section}{\numberline {2.2}Office work}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Reducing information access costs: multiple and larger screens}{21}{subsection.2.2.1}
+\contentsline {subsubsection}{Summary}{23}{section*.24}
+\contentsline {subsection}{\numberline {2.2.2}Managing information needs}{23}{subsection.2.2.2}
+\contentsline {subsubsection}{Summary}{24}{section*.25}
+\contentsline {section}{\numberline {2.3}Conclusion}{24}{section.2.3}
+\contentsline {chapter}{\numberline {3}Study 1: Understanding data entry tasks in a financial office}{26}{chapter.3}
+\contentsline {subsubsection}{Chapter outline}{26}{section*.26}
+\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}Method}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Materials}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Data recording}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Interviewing procedure}{29}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Pilot interview}{30}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Results}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Data analysis}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Themes}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Task}{32}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Checking}{34}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}System}{36}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Environment}{37}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Data}{38}{subsection.3.3.7}
+\contentsline {subsection}{\numberline {3.3.8}Errors}{39}{subsection.3.3.8}
+\contentsline {subsection}{\numberline {3.3.9}Strategy}{41}{subsection.3.3.9}
+\contentsline {subsection}{\numberline {3.3.10}Importance of accuracy and paper trails}{43}{subsection.3.3.10}
+\contentsline {subsection}{\numberline {3.3.11}Other}{44}{subsection.3.3.11}
+\contentsline {section}{\numberline {3.4}Discussion}{45}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Information sources and access costs}{45}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Batching data entry tasks}{46}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Multiple checking stages}{47}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Summary}{47}{subsection.3.4.4}
+\contentsline {chapter}{\numberline {4}Study 2: The effect of IAC on copying numbers}{49}{chapter.4}
+\contentsline {subsubsection}{Chapter outline}{49}{section*.49}
+\contentsline {section}{\numberline {4.1}Introduction}{49}{section.4.1}
+\contentsline {section}{\numberline {4.2}Method}{51}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Participants}{51}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Design}{51}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Materials}{52}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Procedure}{54}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Results}{54}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Task strategies}{54}{subsection.4.3.1}
+\contentsline {subsubsection}{Number of visits to the target window}{54}{section*.53}
+\contentsline {subsubsection}{Duration of first visit to target window}{56}{section*.55}
+\contentsline {subsubsection}{Blocks placed after first visit}{57}{section*.57}
+\contentsline {subsection}{\numberline {4.3.2}Global task performance}{58}{subsection.4.3.2}
+\contentsline {subsubsection}{Number of incorrectly placed blocks}{59}{section*.59}
+\contentsline {subsubsection}{Number of incorrectly submitted trials}{59}{section*.60}
+\contentsline {subsubsection}{Trial time}{59}{section*.61}
+\contentsline {subsection}{\numberline {4.3.3}Qualitative data}{59}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Discussion}{61}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}The effect of block type on task strategies and performance}{61}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}The effect of IAC on task strategies and performance}{61}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Summary}{62}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Study 3: Information sources for entering expenses}{64}{chapter.5}
+\contentsline {subsubsection}{Chapter outline}{64}{section*.63}
+\contentsline {section}{\numberline {5.1}Introduction}{64}{section.5.1}
+\contentsline {section}{\numberline {5.2}Method}{65}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Participants}{65}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Data collection}{66}{subsection.5.2.2}
+\contentsline {subsubsection}{Contextual inquiry}{66}{section*.64}
+\contentsline {subsection}{\numberline {5.2.3}Materials}{67}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Pilot study}{67}{section.5.3}
+\contentsline {section}{\numberline {5.4}Data collection and analysis}{67}{section.5.4}
+\contentsline {section}{\numberline {5.5}Ethical considerations}{68}{section.5.5}
+\contentsline {chapter}{\numberline {6}Study 4: the effect of IAC on looking up information}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{69}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Aim}{69}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Hypotheses}{70}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Contributions}{70}{subsection.6.1.3}
+\contentsline {chapter}{\numberline {7}Study 5: evaluating design changes in a lab setting}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{71}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Aim}{71}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Hypotheses}{72}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Contributions}{72}{subsection.7.1.3}
+\contentsline {chapter}{\numberline {8}Study 6: evaluating design changes in a financial office setting}{73}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{73}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Aim}{73}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Contributions}{73}{subsection.8.1.2}
