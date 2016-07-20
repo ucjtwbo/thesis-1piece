@@ -24,23 +24,18 @@
 \input{title.tex}
 
 \begin{abstract}
- 
+
 When people have to enter expenses, this involves retrieving data from one or more sources in the environment and entering it into a computer system. Switching between entering data and looking up the required data can be disruptive, as people have to pay a time cost each time they resume their data entry task. Furthermore, the cost to access these sources may vary, which can further influence the disruptiveness of looking up the information. In order to design interfaces that support people in their data entry work, it is therefore important to understand how these differences in access affect switching behaviour between entering and retrieving data. 
+
 This thesis investigates how information access costs (IAC) affect how people manage subtasks of looking up information for a data entry task. Six studies are carried out to understand the impact of IAC in the context of entering expenses in a finance office setting.
 
-Study 1 aimed to explore the type of data entry tasks in financial offices at two universities, and the context in which these tasks are done. A prevalent data entry task is processing expenses from university staff and students, which involves retrieving information from multiple sources with different IACs. People often have to go in and out of the data entry system to look up information, and upon resuming the entry task it is difficult to see where they are in the task.  Errors are common and therefore data has to be entered and checked by multiple people, before it can be submitted to the system. People batch their work to do their data entry tasks in one sequence, which suggests people make attempts to minimise switching between tasks.
+The first part of the thesis reports a series of qualitative studies that look at the context in which office workers in financial offices perform data entry tasks.  For entering expenses, people often had to go out of the data entry system to look up information. A planned study aims to further investigate the information sources needed for this task and their IAC, and the strategies people currently use to retrieve information from these sources.
 
-Study 2 aimed to explore whether the effects of IAC on copying from one source, as found in previous studies, transfer to copying numbers. In a controlled experiment the cost of accessing information in a copying task was manipulated. The study showed that when access costs from one source increase, people make fewer switches between entering data and checking this source to minimise time costs. This made people more efficient but slightly increased errors, though error rate was low overall.
+The second part of the thesis reports a series of quantitative studies that investigate to what extent observed behaviour of the first studies are due to the access costs of the information sources involved. When people copy from one source and IAC increases, people make fewer switches to look at this source, and instead enter what they have memorised. This makes people more efficient, but slightly increases errors. A planned study aims to further investigate switching behaviour when people have to retrieve the information from multiple sources.
 
-Study 3 aims to further understand the expenses task, the information that office workers need for this task, where they need to get it from, and the tools and strategies they use to retrieve the information and enter it into a computer. Office workers dealing with processing expenses are shadowed doing their work and interviewed to explain their activities. They are also asked to demonstrate the task while thinking aloud.
+The final part of the thesis then reports studies that explore if design interventions can make people adopt more desirable strategies, i.e. strategies that minimise switching between entering data and looking up the required data. 
 
-Study 4 aims to investigate to what extent observed behaviour in Study 3 is due to the used information sources and its access costs.  A controlled experiment manipulates the cost of accessing information when using multiple sources in an expenses task, to investigate to what extent strategies are influenced by differences in IAC. The expected outcome is that people will optimise the task as they become familiar and experienced in the task: initially they will look up each data item the moment they need it, but as they become familiar with the IAC of sources, they first finish entering all information from low IAC sources, before looking up information of high IAC sources. The identified behaviour of how people manage looking up information is used to create a set of design recommendations for the current expenses system. 
-
-Study 5 aims to evaluate these design recommendations in a controlled experiment, to see if making design changes influence the strategies people adopt, and can make people adopt more accurate and/or efficient strategies.
-
-Study 6 aims to evaluate the design recommendations in situ with finance employees, to ascertain how appropriate the proposed recommendations are in the context in which they would be used.
-
-The primary contribution of this thesis is to show the fragmented nature of an expenses task, and that the IAC of required information sources affects how people manage how they look up certain information, which in turns impacts accuracy and efficiency. This finding has implications for the design of the current expenses system. A second contribution is demonstrating of how changing certain design features can potentially better support people in managing these subtasks of looking up information for a data entry task.
+The primary contribution of this thesis is to show the fragmented nature of an expenses task, and that the IAC of required information sources affects how people manage how they look up certain information, which in turns impacts accuracy and efficiency. This finding has implications for the design of the current expenses system, which are validated through demonstration of how changing certain design features can potentially better support people in managing these subtasks of looking up information for a data entry task.
 
 \end{abstract}
 
@@ -78,9 +73,6 @@ The first contribution of this thesis is to map out the fragmented nature of an 
 In this chapter, I review previous literature on which I build my research on expenses tasks in a financial office setting. The first half of the chapter will focus on the data entry task, and how certain design changes can influence people's speed and accuracy. The second half of the chapter will focus on the setting, and discuss challenges of performing tasks in an office environment.
 %\vspace{0.2cm}
 \end{minipage}}
-
- 
-
 
 \section{Data entry}
 A data entry task can be broken down in four stages (see Figure \ref{fig:ch2_hip}). An information source contains the input, i.e. the data to be entered. In the perception stage, the user perceives this data. In the encoding stage, the user encodes these in the mind. In the execution stage, the user enters them into a device which produces the output of the task, namely the data entered. Additionally, there can be a checking stage where the user checks their entered output against the original input to see if it matches.
@@ -310,16 +302,18 @@ Data entry follows four stages, and there are multiple strategies to complete th
 It is not known yet how these designs can be used in an office setting, where people have to manage multiple information sources with varying information access costs. Studies on office work have shown that work can be highly fragmented, and that people may often have to go in and out of several applications to complete their task. 
 In order to design interactive systems that truly support this type of data entry task, it is necessary to get a detailed understanding of the task in this setting, how users manage subtasks of looking up information for the data entry task, and to what extent the costs to access required resources affect their strategies.
 
-\chapter{Study 1: Understanding data entry tasks in a financial office}\label{ch:Study1}
+\chapter{Entering expenses in a financial setting}\label{ch:Study1}
 \fbox{\begin{minipage}{\textwidth}
 \subsubsection{Chapter outline}
 
 In this chapter I describe the findings of an explorative interview study about data entry in a financial work setting. The aim of this study was to get a better understanding of the type of data entry task people at finance offices conduct, and the physical environment in which this is done.
+A second planned study is described, that aims to investigate the information sources finance office workers need for an expenses task, and how they currently manage subtasks of looking up information.
 
 \end{minipage}}
 
+\section{Study 1: Understanding data entry work in a financial office}\label{ch:Study1}
  
-\section{Introduction}
+\subsection{Introduction}
 As data entry is a common task and it is important this is done both accurately and efficiently, work has been done to design and optimise data entry interfaces to support fast and accurate data entry \citep[e.g.][]{Oladimeji2013, Vertanen2015, Wiseman2013a}.
 However, it is not just the input method that determines efficiency and accuracy but also other aspects of the task, such as the environment within which it is conducted \citep{Payne2013, Randall2014}.
 
@@ -329,8 +323,8 @@ In order to support people in their data entry work, it is important to first ha
 
 Previous research has given us a good understanding of which factors may influence people's performance on a data entry task. The current study aims to study how these factors are laid out in an applied setting. Furthermore, this study gives an opportunity to see if there are additional problems that influence data entry performance, that are currently not acknowledged in existing literature. 
 
-\section{Method}
-\subsection{Participants}
+\subsection{Method}
+\subsubsection{Participants}
 Nine participants (four male) took part in the study. They were employees from two public universities and their work involved receiving various requests for payment, checking the information of these requests was correct, and entering the information along with administration data into computer systems. Ages ranged from 18 to 52 (two participants wished to not disclose their age). Their level of experience differed, with some participants having just started doing this type of job and other participants working in Finance for 17 years. All but one worked full-time. Table \ref{table:ch3_participants} shows further demographic details of the participants. Typical tasks participants dealt with were checking and entering expense forms sent by staff and students, paying salaries and pensions, controlling research budgets, monitoring university income and expenses and entering employee information. Participants were recruited by sending invitations to opt-in mailing lists of Finance departments, and were reimbursed with a \pounds10 Amazon voucher.
 
 \begin{table}[htp]
@@ -358,7 +352,7 @@ P9       & -         & F            & British           & Payroll Officer       
 \label{table:ch3_participants}
 \end{table}
 
-\subsection{Materials}
+\subsubsection{Materials}
 Materials that were used during the interview were a voice recorder, a paper copy of an interview script with the interview topics and guiding questions, a consent form, an information sheet for the participant and a notebook and pen to make notes. The interview script, information sheet and consent form are included in the Appendix. 
 Each interview covered four guiding topics, which are briefly described in Table \ref{table:ch3_interviewtopics}. For each topic, a number of questions were written out beforehand. These questions were used as a starting point to get the participant talking and guide the interview. Based on what the participant was saying follow-up questions were asked. The audio transcription program ExpressScribe was used to transcribe the interviews. The data analysis programs Nvivo and Atlas.ti were used to analyse the data. Nvivo was used to code the interview transcripts and notes. Atlas.ti was used to complement the analysis in Nvivo and allowed to identify relations between codes.
 
@@ -377,31 +371,31 @@ Demonstration &  Interviewees were asked to give a demonstration of entering dat
     \label{table:ch3_interviewtopics}
 \end{table}%
 
-\subsection{Data recording}
+\subsubsection{Data recording}
 A voice recorder was used to audio record the interviews. One participant wished to not be audio recorded and one interview could not be audio recorded due to technical issues, so for these two interviews notes were taken of the answers. For the remaining seven interviews, notes were only made of observations and not the participants' answers. Notes were made with pen and paper. Photographs were made of the work environment and screenshots of the systems that the interviewees used.
 
-\subsection{Interviewing procedure}
+\subsubsection{Interviewing procedure}
 The interviews took place at the participants' workplace. For two interviews, the interviewee's office place was not suitable for talking so the interview took place in a common room nearby, and these participants showed their workplace and completed a demonstration of entering data after the interview. 
 Participants were welcomed and informed about the study. They received a paper information sheet with the outline of the study and contact details of the researcher to keep for future reference. They were also asked to read and sign a consent form.
 
 The interviews were semi-structured and took between 20 and 55 minutes. Each interview was reviewed afterwards, and findings sometimes fed into new questions being included or some questions being adapted in subsequent interviews.
 
-\subsection{Pilot interview}
+\subsubsection{Pilot interview}
 A pilot interview was conducted with an acquaintance of the researcher who worked in Finance, to test out the set-up of the study and questions. The interview took place at the participant's home, notes were taken with pen and paper, and the interview was audio-recorded using iMovie on a Macbook Pro. 
 
 Taking notes slowed down the flow of the interview: sometimes the interviewee stopped talking to give the interviewer the opportunity to finish taking notes. Furthermore, taking notes took attention away from what the interviewee was explaining: assumptions made during the interview did not seem to be accurate in later analysis. Therefore, it was decided that note taking would be kept to a minimum. Notes would only be made of observations that could not be taken from audio recordings.
 
 The interviewee talked elaborately about manually converting different currencies, and identified this task as the main place where errors occurred. Therefore, questions were included about if interviewees dealt with foreign currencies and converting these. 
 
-\section{Results}
-\subsection{Data analysis}
+\subsection{Results}
+\subsubsection{Data analysis}
 After each interview or set of interviews, a first analysis took place. The audio recording was played back, notes were typed into a digital file and reviewed and the interview was transcribed verbatim. Several non-verbal cues were included in the transcription as well, such as when the interviewee laughed or sighed, as well as descriptions of when the interviewee was demonstrating something. The advantage of doing the transcription shortly after the interview was that it was still easy to remember from listening to the audio recording what was being demonstrated. Interesting findings and initial patterns that were apparent across the data were written down. 
 
 After all interviews had been transcribed, the transcriptions and notes were printed and the data was analysed using thematic analysis \citep{Braun2006}. Anything in the data that was considered to be interesting was annotated by hand and labelled with an appropriate code. On reviewing the coding, some codes were grouped together in one code, additional codes were named, and similar codes were grouped under themes. For instance, an initial code was Notifications, such as e-mail notifications. During the second coding iteration, it was identified that people always talked about notifications in the context that they were interrupted (by a notification) rather than about notifications on its own. Therefore, notifications and interruptions were grouped into one code. 
 
 The themes were then reviewed, to see if they addressed the purpose of the study. The transcripts and notes were then imported into Nvivo and coded digitally. Atlas.ti was used to complement this analysis and allowed to identify relations between codes. 
 
-\subsection{Themes}
+\subsubsection{Themes}
 In total 51 codes were derived, and these were grouped into 8 main themes, which are listed and described in Table \ref{table:ch3_themes}. If codes or separate quotes did not belong in a certain theme but were still considered relevant, they were grouped in the Other category. 
 
 \begin{table}[htp]
@@ -429,8 +423,8 @@ In total 51 codes were derived, and these were grouped into 8 main themes, which
 Each theme is described separately in subsections below, and is visualised in a diagram, which shows the theme's main codes and relationships between codes, as well as quotes in dotted squares to exemplify what type of quotes were grouped under this code. The numbers in parentheses indicate the number of quotes, and the number of interviewees who mentioned it. 
 The description of each theme is accompanied with notes and quotes taken from the transcripts to further illustrate when this theme was mentioned. These serve as examples and are not all the instances of a theme. To differentiate notes from verbatim quotes, the quotes are in italics and double quotation marks. Words put in brackets are added by the researcher to make the quote more understandable for the reader, for instance if the interviewee is talking about 'it' or 'them'.
 The results are ordered according to the number of quotations associated with a theme, with the theme with the most quotations listed first. The only exception is the 'Other' theme which is described last.
-
-\subsection{Task}
+\newpage
+\subsubsection{Task}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Task.png}
@@ -448,7 +442,7 @@ The time spent on each task differed: checking data on a short expenses form cou
 
 \pagebreak
 
-\subsection{Checking}\label{subsec:Checking}
+\subsubsection{Checking}\label{subsec:Checking}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Checking.pdf}
@@ -509,7 +503,7 @@ People had to both check their own data input, as well as double-check other peo
 \end{table}%
 
 \pagebreak
-\subsection{System}
+\subsubsection{System}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/System.pdf}
@@ -523,7 +517,7 @@ Data had to be entered into an information system on a computer. Some participan
 The information needed for one task was usually spread over several windows on the computer, so sometimes people had to flick back and forth or memorise certain information from one window to use in another window. 
 
 \clearpage
-\subsection{Environment}
+\subsubsection{Environment}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Environment.pdf}
@@ -541,7 +535,7 @@ People were dependent on other departments to finish a task. For instance, P5 ch
 Some participants felt the pressure to be both accurate in data entry, as well as finish it quickly because of deadlines. The workload varied throughout the year.
 
 \newpage
-\subsection{Data}
+\subsubsection{Data}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Data.pdf}
@@ -558,7 +552,7 @@ Numeric data consisted of individual numbers, as well as groups of numbers that 
 
 \ \clearpage
 
-\subsection{Errors}
+\subsubsection{Errors}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Errors.pdf}
@@ -631,7 +625,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
 \end{table}%
 
 \newpage
-\subsection{Strategy}
+\subsubsection{Strategy}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Strategy.pdf}
@@ -681,7 +675,7 @@ People explained that a lot of numbers they enter are calculated from other numb
 
 \ \clearpage
 
-\subsection{Importance of accuracy and paper trails}
+\subsubsection{Importance of accuracy and paper trails}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Papertrail.pdf}
@@ -697,7 +691,7 @@ Hard copies of data had to be archived and were checked by external auditors. Fo
 
 \pagebreak
 
-\subsection{Other}
+\subsubsection{Other}
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Other.pdf}
@@ -723,7 +717,7 @@ Interviewees mentioned several issues they experienced. Most of the time, the is
 
 \pagebreak
 
-\section{Discussion}
+\subsection{Discussion}
 The purpose of this study was to gain a better understanding of the type of data entry tasks in financial offices, and the physical environment in which these are conducted. For this purpose nine interviews were conducted with staff from two public universities who worked with financial data. The main findings of the study are: 
 
 \begin{itemize}
@@ -735,9 +729,9 @@ people batch their work to enter a lot of data entry at once, and minimise switc
 data entry errors are common, and the current solution is to have data entered and checked by multiple people before it gets submitted to the system
 \end{itemize}
 
-\subsection{Information sources and access costs}
+\subsubsection{Information sources and access costs}
 A prevalent data entry task of participants' work was processing expense claims from university staff and students. A substantial part of this task is not just entering the data but also collecting it from multiple sources. For example, the expenses had to be entered from paper forms and receipts, foreign currencies had to be converted and copied from a website, and staff and financial information had to be retrieved from sources such as electronic spreadsheets, databases and e-mails. 
-In data entry experiments, the data is often shown on a computer, to make it easy to manipulate. This was sometimes the case in the office setting studied here, but data was also transcribed from paper sheets into a computer. Furthermore, in lab experiments people are often only presented with the data they have to enter and sometimes are given only one data item at a time. The sources from which people had to enter data in this study usually contained a lot of data, not all of which was relevant to the task. The amount of irrelevant data on the sources can increase the time people need to look up the information they needed.
+In data entry experiments, the data is often shown on a computer, to make it easy to manipulate. This was sometimes the case in the office setting studied here, but data was also transcribed from paper sheets into a computer. Furthermore, in lab experiments people are often only presented with the data they have to enter and sometimes are given only one data item at a time. The sources from which people had to enter data in this study usually contained a lot of data, not all of which was relevant to the task. The amount of irrelevant data on the sources can increase the time people need to look up the information they need.
 
 The cost to access the information sources differed. For instance, some paper sheets were on people's desk, but some paper sheets had to be retrieved elsewhere. Sometimes participants had to go through a large spreadsheet, before they found the number they needed to copy. Participants also dealt with multiple windows on their computer screen, and sometimes needed to switch between different windows. Instead of flicking back and forth to view information they had to enter in another window, people said they preferred to memorise it. This supports previous research which showed that people make strategic use of internal and external resources and do not always maximise off-loading cognition to external resources \citep{Gray2006}. Even though participants were aware they did not have to remember information, they found this easier and faster rather than looking it up or writing it down. 
 
@@ -747,7 +741,7 @@ If information to copy is familiar and contains numbers and text, making the eff
 
 People used some external tools to aid memory. For example, some participants had printed sheets with information they used and entered often, so they did not have to repeatedly look this up in the system. They also used calculators and pen and paper to perform calculations.
 
-\subsection{Batching data entry tasks}
+\subsubsection{Batching data entry tasks}
 Eight of nine participants batched data entry tasks to do them all at once, rather than spread them over time. The only participant who processed expense forms as they came in said she did not receive a large amount of forms. She explained that if she dealt with a higher volume of expenses, she would probably do it in a more efficient way.
 
 There were different reasons behind the strategy to enter a large amount of data in one sequence. One participant received forms in a bulk, and felt time pressure to finish them all at once, rather than spread them over time. The other seven participants said they received forms on an ad-hoc basis, but deliberately saved them until a specific moment and then processed them all in a bulk. They preferred to focus on one task at once, and some people stated that it made them faster in entering data after a while. 
@@ -755,7 +749,7 @@ There were different reasons behind the strategy to enter a large amount of data
 This is consistent with Healy et al.'s \citeyearpar{Healy2004} study, where learning effects could be measured in a number entry task. However, in their experiment participants became faster but also more erroneous in entering data. In the current study, P3 mentioned that most of the errors she picks up from colleagues are typos caused by rushing to finish the task. P4 mentioned that he wants to enter numbers accurately, but that there is a time pressure to finish things in time. This is in line with the speed-accuracy trade-off discussed in literature, and that a sense of urgency may cause people to enter numbers faster but at the expense of a higher error rate \citep{Lin2011, Lin2013}.
 \citet{Healy2004} recommended regular breaks when entering large amounts of data to maintain accuracy, but P4 in the current study explained it is difficult to take breaks, when he feels a time pressure to finish it.
 
-\subsection{Multiple checking stages}
+\subsubsection{Multiple checking stages}
 In order to prevent errors, input was entered and checked by multiple people before it was allowed to be submitted into the system. This checking method is similar to \citeauthor{Reason1990}'s \citeyearpar{Reason1990}  Swiss Cheese model, where multiple checking layers are used to minimise the risk of errors. However, as a result of this people seemed less careful in checking their own input, because they knew it would be checked by someone else. 
 
 In previous studies, providing incentives for people and introducing lockouts into the data entry interface has been shown to influence how carefully people check their input \citep{LiSimon2015, Gould2015}. The findings from the current study suggest that how and whether people check also partly depends on what the primary objective of their task is: entering or checking input.
@@ -764,26 +758,97 @@ When people were asked to check other people's data input, they checked each dat
 
 It could also be that people were aware their input was going to be checked by another person, and therefore did not spend as much effort trying to check it properly. When talking about checking other people's input, people emphasised how it was important that each data item was checked carefully. However, when they talked about their own input, they tended to emphasise this less and mentioned another person would double-check it anyway.
 
-\subsection{Summary}
+\subsubsection{Summary}
 The purpose of this study was to get a better understanding of data entry tasks associated with finance administration office work, and the context in which these tasks are done. While it was informed by previous data entry research, it did not have a particular theoretical framework prior to undertaking the study to inform and guide the data collection and analysis. 
 
-A prevalent data entry task of the participants was processing expense claims from university staff and students. A substantial part of this task was not just entering the data, but also collecting it from multiple sources with varying information access costs. As my data collection and analysis progressed, it emerged that framing the findings in terms of different information access costs (IAC) of these information sources had the potential to provide a useful lens on the data for informing the design and evaluation of data entry systems.
- 
-Sometimes the cost to access an information source was low, and people could easily access it and look at it while entering it. Other times the cost was high, and people had to go back and forth between the window that showed the information, and the window in which they had to enter the information. Theory suggests that these different access costs have an impact on strategy, speed and accuracy. In previous experimental studies, an increase in IAC made people check the information source less and instead enter what was in their head. This can make people more efficient as it minimises switching between the information source and the input interface, but if the information in the head is wrong, it increases errors. In these previous studies, it increased errors, but the studies made use of abstract artificial information, which may have been too hard for participants to memorise. 
-In the current study, people had to copy numbers and text. Previous studies showed that when looking at text and/or numbers, a deeper encoding of the information in memory makes people more accurate in entering the information. 
-The next study aims to see if the effect of IAC on a copying task extends to copying numbers, which people have experience with copying and can more easily memorise.
+A prevalent data entry task of the participants was processing expense claims from university staff and students. A substantial part of this task was not just entering the data, but also collecting it from multiple sources with varying information access costs. As my data collection and analysis progressed, it emerged that framing the findings in terms of different information access costs (IAC) of these information sources had the potential to provide a useful lens on the data for informing the design and evaluation of data entry systems. As the study looked at the wider context of participants' data entry work and did not focus on entering expenses per se, it was not recorded which sources people needed and how they looked up information.
 
-\chapter{Study 2: The effect of IAC on copying numbers}\label{ch:Study2}
+The aim of the next study is to investigate the information sources people need for an expenses task, and how they currently manage subtasks of looking up information from an expenses task. 
+%Sometimes the cost to access an information source was low, and people could easily access it and look at it while entering it. Other times the cost was high, and people had to go back and forth between the window that showed the information, and the window in which they had to enter the information. Theory suggests that these different access costs have an impact on strategy, speed and accuracy. In previous experimental studies, an increase in IAC made people check the information source less and instead enter what was in their head. This can make people more efficient as it minimises switching between the information source and the input interface, but if the information in the head is wrong, it increases errors. In these previous studies, it increased errors, but the studies made use of abstract artificial information, which may have been too hard for participants to memorise. 
+%In the current study, people had to copy numbers and text. Previous studies showed that when looking at text and/or numbers, a deeper encoding of the information in memory makes people more accurate in entering the information. 
+%The next study aims to see if the effect of IAC on a copying task extends to copying numbers, which people have experience with copying and can more easily memorise.
+
+\section{Study 2: Information sources for entering expenses}
+
+\subsection{Introduction}
+%The purpose of Study 1 was to get a better understanding of data entry tasks associated with finance administration office work, and the problems employees currently experience carrying out these tasks. I did not use a particular theoretical framework prior to undertaking the study to inform and guide the data collection, and did not explicitly focus on the different information sources needed for entering expenses per se.  It was only as data collection and analysis progressed, that it emerged that framing the findings in terms of different IACs had the potential to provide a useful lens on the data for understanding people's data entry strategies, and informing the design and evaluation of the data entry expense systems.
+
+%A prevalent data entry task in the financial offices observed in Study 1 was entering expenses. For this task, workers had to look up information from multiple sources, and the IAC for each source differed. Study 2 showed that when people have to copy data from one source in a lab setting, and the IAC of this source increases, they try to memorise more information in order to reduce visits to the source. In the experiment, all information came from one source and was the same type, i.e. either all items were numbers, or all items were colours. For each participant, the IAC was the same throughout the experiment: it was either low, medium, or high. 
+A common data entry task observed in Study 1 was entering expenses. Office workers receive expense claims from staff, check the information is correct, and enter it, along with other information, into a computer system. They have to enter different types of information such as numbers and alphanumeric strings, these do not all come from the same source, and different sources can have different IACs. For example, some information can be recalled from memory, some has to be typed from a paper sheet, some numbers have to be calculated first, and some information has to be looked up in an electronic information system. 
+
+The purpose of this study is to investigate the information sources people need for an expenses task, and how they currently manage subtasks of looking up information from an expenses task. Do they look up information as they need it, or get all the required information first and then enter it? They may also change their strategies as they get more experienced with the task and know where to get the information from, or enter all information that is easy to access first.
+
+Ten finance employees will be observed at their workplace, with a particular focus on the information resources they need and use for entering expense claims into the financial computer system. I will shadow them doing their work, and will ask them to demonstrate the task while thinking aloud. They will be interviewed afterwards  and I will ask them questions about observations I made. 
+
+In order to better understand how people switch between applications for office work, \citet{Cangiano2009} made screen recordings of workers' activities in a law office. They then played these back to the workers, and asked them to explain their activities. These screen recordings were useful for workers to accurately recall what they were doing at the captured moments, and why they had certain windows open. If allowed, employees in the current study will be asked to make screen recordings of doing an expenses task and will be video recorded. 
+
+\subsection{Method}
+\subsubsection{Participants}
+Ten participants will take part in the study. They will be employees from financial offices at public universities dealing with processing expense claims. A combination of convenience and snowball sampling will be used to recruit the participants. Convenience sampling will be applied by distributing flyers, sending invitations to opt-in mailing lists of Finance departments from several universities, and by asking people from the user group that are familiar to the researcher. In addition, snowball sampling will be used by asking participants if they know colleagues who would potentially be interested to participate in the study. 
+Ideally a range of experience levels will be included, from beginner to experienced level. Participants will be reimbursed with \pounds15 and be entered in a prize draw to win \pounds50. 
+
+\subsubsection{Data collection}
+My data collection will be informed by using the methodological approach of contextual inquiry.
+Contextual inquiry is a combination of observation and interviewing users and their everyday work, with the aim to use the findings to inform design of the systems they use \citep{Beyer1998}.
+\citet{Beyer1998} argue that observing participants carrying out their work can reveal concrete details, and it can help participants to recall past situations of carrying out work. It is therefore considered to be an appropriate method for the aims of this thesis, as it involves understanding users' expenses work with the aim to translate it into design implications for their expenses system. 
+
+I will follow the four stages of \citet{Beyer1998}:
+\begin{enumerate}
+\item 
+Interview
+
+In this part, the participant will typically be asked general questions about their work. This part is primarily to make the participant feel comfortable and start the conversation easy. As I have already gained an insight on finance employees' general work in Study 1, this interview will be more particular focused on their expenses task. Participants will be asked about their experience with the system  and the resources they use, to get an idea of what they consider resources.
+\item 
+Transition
+
+In this part, the participant will demonstrate the expenses task and will be asked to think out loud. I will prompt questions if the participants falls quiet or will ask to elaborate if something interesting or unusual happens.
+\item 
+The contextual interview proper
+
+In this part, the participant will do his/her work while I observe and make notes. If allowed, participants will be video recorded. The participant will go about doing work without explaining what he/she is doing and why. 
+\item 
+Wrap-up
+
+In the final stage, I will ask questions about observations I made. I will summarise to the participant what I have found and check if this is correct. The participant will be thanked and debriefed.
+\end{enumerate}
+
+\subsubsection{Materials}
+Materials that will be used during the contextual inquiry are a voice recorder to record the interview, an interview script with guiding questions, a checklist to guide the observation and think-aloud part, a notebook and pen to make notes, and a consent form and information sheet for the participant.
+A number of interview questions will be written out beforehand. These questions are used as a starting point to get the participant talking and guide the interview. Based on what the participant is saying follow-up questions will be asked. 
+
+\subsubsection{Pilot study}
+In order to test the suitability of the study set-up, a pilot study was conducted with a financial administrator at a university who dealt with processing expenses. The study took place at the university, and notes were taken with pen and paper. 
+
+Initially, the intended method of this study was to conduct a contextual inquiry, followed by a week-long diary study where office workers would make a diary entry of their expenses tasks. The aim of this diary study was to get a further insight in additional information sources they may sometimes use, that were not covered in the contextual inquiry.  Participants would submit a diary entry either by writing down a description or by taking a photograph of the task setting, showing the information sources. At the end of the day, they would be asked answer the following questions about their short entries: what information did you need, where did you need to get it from, and when did you look up the information. This method built on a study by \citet{Sohn2008}, where participants kept a diary of their mobile information needs and how they addressed those needs. 
+
+The administrator explained that expense tasks usually are conducted in the same manner, and predicted I was unlikely to find a lot of instances that differ from my observations of having office workers do the task.
+Furthermore, by observing them I am able to see the access people have to the resources and how much time it takes them to get the data, as well as when in the task they decide to look up information. This information would be more difficult to get insight to through diary entries.
+
+It was therefore decided after this study to not conduct a diary study but instead only observe office workers, and ask them to explain their work.
+
+\subsection{Data collection and analysis}
+The interviews will be transcribed verbatim, and transcripts will be analysed using thematic analysis. The data analysis program Atlas.ti will be used to code the data.
+
+\subsection{Ethical considerations}
+The advertisement will include what participants will be asked to do and what their reimbursement will be. 
+Participants will be briefed at the beginning of the interview. They are then asked to read and sign a consent form, and are given an information sheet with the study information and my contact details for them to keep. 
+It will be explained they are free to withdraw from the study at any time, and that their data will be used for research purposes only. They will be asked for permission to audio record the interview, and video record them doing their work. It will be explained that the purpose of the study is to get a better understanding of how they normally go about their work with an aim to improve the system, and that there are no right or wrong ways of doing tasks. 
+
+\chapter{Understanding the effect of IAC on looking up information}
 \fbox{\begin{minipage}{\textwidth}
 \subsubsection{Chapter outline}
-In this chapter, I describe a lab study that replicates the Blocks World Task study using coloured as well as numbered blocks. The purpose of this study was to test whether the effect of IAC on a copying task, as found in previous studies, extends to copying numbers.
-A part of the data was collected by Katherine Corneilson, an affiliate undergraduate student at UCL. I designed and implemented the study, collected the remainder of the data, and conducted the analyses.
+In this chapter, I describe two lab experiments that investigate to what extent IACs of information sources influence people's switching strategies, speed and accuracy.
+
+The purpose of Study 3 was to test whether the effect of IAC on copying colours from one source, as found in previous studies, extends to copying numbers. A part of the data was collected by Katherine Corneilson, an affiliate undergraduate student at UCL. I designed and implemented the study, collected the remainder of the data, and conducted the analyses.
+
+I describe a planned Study 4 that investigates the effect of IAC on people's strategies when entering and looking up information from multiple sources.
+
 \end{minipage}}
 
  
-
-\section{Introduction}
-Study 1 illustrated that people had to retrieve and copy data from multiple sources with varying information access costs (IAC). People were not always able to look at the data source while entering data, and information sometimes had to be briefly kept in memory before people could enter it.
+\section{Study 3: Copying numbers from one source}\label{ch:Study2}
+\subsection{Introduction}
+Study 1 and 2 illustrated that people had to retrieve and copy data from multiple sources with varying information access costs (IAC). People were not always able to look at the data source while entering data, and information sometimes had to be briefly kept in memory before people could enter it.
 In this situation, people have various options: they can decide to keep going back to the target source, reduce their memory load by writing it down, or keep as much of it in memory. Participants in Study 1 explained they tried to do it in the quickest way possible, and preferred to keep data in memory as this was often a faster strategy than writing it down, printing it out, or going back and forth between the source and the input window.
 
 This is in line with previous lab studies, which showed that as the cost to access information increases, people increasingly rely on the information in their head rather than the information in the environment \citep[e.g.][]{Gray2006, Morgan2009}. People look at the target source longer before copying anything, but after one look, they do enter more items in one sequence before looking back. 
@@ -801,11 +866,11 @@ The study reported in this chapter replicates the BWT study, by using both colou
 It is expected that the effect of IAC on strategy will be similar and that an increase in IAC will encourage people to adopt a more memory-based strategy.  However, the expectation is that numbers are easier to memorise and people will be able to memorise more items. Furthermore, based on previous findings that a deeper encoding of numbers in memory can reduce errors, it is expected that an increased IAC will improve accuracy for copying numbers.
 
 
-\section{Method}
-\subsection{Participants}
+\subsection{Method}
+\subsubsection{Participants}
 Fourty-two participants (eight male) were recruited from the UCL Psychology Subject Pool. Ages ranged from 18 to 52 with a mean age of 22.38 (SD = 7.45). Participants received course credit or \pounds3.75 as a compensation for taking part in the study.
 
-\subsection{Design}
+\subsubsection{Design}
 A mixed design was used with two independent variables: IAC and block type.
 The between-participants variable was the level of IAC which had three levels. If the IAC was Low, the target pattern was permanently visible. In the Medium and High IAC conditions, the target pattern was covered with a grey mask, and could only be uncovered by moving the mouse cursor over the window. The mask reappeared as soon as the cursor left the window. In the High IAC condition, there was an additional 1-second delay to uncover the mask. This delay time was used in previous BWT studies where it showed to have a significant effect on task strategies and performance \citep{Gray2006, Morgan2009, Waldron2007}.
 The within-participants variable was the block type to be copied, which was either coloured or numbered blocks. The order was counter-balanced across participants.
@@ -864,12 +929,12 @@ A Tobii T60 eyetracker was used for recording people's eye fixations. Eye moveme
 
 For the Low IAC condition, the number and duration of visits were measured by taking the eye fixations on the target window from the eye tracker. For the Medium and High IAC conditions, the number and duration of visits were taken from the times the mask was uncovered.The number of times and durations when the mask was uncovered was logged for the Medium and High IAC conditions by Javascript.
 
-\subsection{Procedure}
+\subsubsection{Procedure}
 Participants were welcomed and briefed about the experiment. It was explained they would be shown nine blocks which were in a certain order, and had to copy this order by moving blocks around. Participants were instructed to complete the task as fast as possible, but it was explained that they were not able to continue until they had copied a pattern correctly. 
 The experiment was broken down in two parts, one where they had to copy colours, and one where they had to copy numbers. For each part, they were given two practice trials first to get familiar with the set-up, and to give them a chance to ask questions if anything was unclear. There was an opportunity for the participant to take a break between the two parts. 
 They were asked to read and sign a consent form and given an information sheet with a summary of the study and the researcher's contact details. In addition to the verbal briefing, the explanation of the study was written out on the computer screen for the participant to read and they were shown an instruction video that showed how the experiment worked. The study took around 20-30 minutes to complete.
 
-\section{Results}
+\subsection{Results}
 The means and standard deviations of all dependent variables are shown in Table \ref{table:ch4_IACmeans}.
 
 Eight participants were removed from the analysis due to weak eye-tracking calibration. Furthermore, one participant misunderstood the experiment and did not know she was allowed to uncover the mask of the target window more than once. This participant had scores that were more than three times the interquartile range from the rest of the participants' scores on six different variables, so this participant was considered an outlier and removed from the analysis. 
@@ -917,7 +982,8 @@ Trial completion time excl. lockout
 \label{table:ch4_IACmeans}
 \end{table}
 
-\subsection{Task strategies}
+\subsubsection{Task strategies}
+
 \subsubsection{Number of visits to the target window}
 Participants made fewer visits to the target source when they had to copy numbers (M = 3.06, SD = 2.08) than when they had to copy colours (M = 4.49, SD = 2.18), F(1,30) = 41.62, p<.001, $\eta^2$  = 0.58. Participants also made fewer visits as IAC increased from Low (M = 5.73, SD = 2.41), to Med (M = 3.13, SD = 1.65), to High (M = 2.51, SD = 0.91), F(2,30) = 15.16, p<0.001, $\eta^2$  = 0.50. To investigate differences between conditions, post-hoc Tukey comparisons were performed. Results showed that participants made significantly fewer visits in the Medium-IAC condition than in the Low-IAC condition, p <.01. However, there was no difference in number of visits between the Medium-IAC and the High-IAC conditions, p=.59. Participants looked at the target window for colours more on every level of IAC (see Figure \ref{fig:ch4_noVisits}), and so there was no significant interaction, F(2,30) = 2.82, p=.08, $\eta^2$  = 0.16. 
 
@@ -951,7 +1017,7 @@ People placed more blocks correctly after the first visit for numbers (M = 4.77,
 \label{fig:ch4_firstCorrectBlocks}
 \end{figure}
 
-\subsection{Global task performance}
+\subsubsection{Global task performance}
 The interactions between block type and IAC on global task performance measures all had the same trend: people performed the same for colours and numbers when IAC was Low, but differences appeared between the block types as IAC increased. As this trend was the same for each interaction, the statistical results of the interactions are reported but their specific trend will not be repeated.
 
 \subsubsection{Number of incorrectly placed blocks}
@@ -966,7 +1032,14 @@ Looking at the actual completion time, participants took longer to complete a tr
 
 With the lockout time in the High-IAC condition removed, the same effects were found for block type, F(1,30) = 34.55, p<.001, $\eta^2$ = 0.54, and IAC, F(2,30) = 8.18, p=0.001, $\eta^2$ = 0.35. Tukey post-hoc comparisons show there was still a difference between Low and High (p=.001), but no longer between the Medium IAC and Low IAC or High IAC conditions (ps >.1). There was a significant interaction effect between IAC and block type, F(2,30) = 8.13, p=.002, $\eta^2$ = 0.35.
 
-\subsection{Qualitative data}
+\subsubsection{Qualitative data}
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.3]{images/Study2/ch4_placeholders.pdf}
+\caption{Participants placed blocks outside of the output window as `placeholders'.}
+\vspace{-9pt}
+\label{fig:ch4_placeholders}
+\end{figure}
 The screen recordings from the eye-tracker were played back to further investigate people's behaviour. Although this helped understand some behaviour which could not be determined from the quantitative data alone, these observations only serve to explain some of the quantitative measures and are not the main focus of the analysis.
 
 The visit durations in the Medium IAC condition were suspiciously short. Upon replaying the screen recordings, it appeared that participants often accidentally moved their cursor over the grey mask of the target source. This was counted as a visit by the program, even though participants may have not intentionally moved their cursor to this part of the screen to look at the target source. They did not spend a long time looking at the target window, but also did not immediately move blocks either, and sometimes waited multiple seconds before they made a move. 
@@ -975,15 +1048,9 @@ During the 1-s lockout in the High IAC condition, participants changed their min
 
 People sometimes placed the blocks as `placeholders' as shown in Figure \ref{fig:ch4_placeholders}: they placed several blocks outside of the output window next to the position they thought it belonged to, but did not place it there yet. Only after viewing the target again, they placed the blocks in the output window. Looking at quantitative data alone, this type of strategy would be depicted as one long view at the target, after which all blocks were placed in one go. This is true to some extent, but as people could already place the blocks and offload their memory without this being recorded by the program, they only had to check if this position was correct on the subsequent visit, and is different from a strategy where people spent a long time trying to memorise the blocks after which all blocks were placed.
 
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale=0.3]{images/Study2/ch4_placeholders.pdf}
-\caption{Participants placed blocks outside of the output window as `placeholders'.}
-\vspace{-9pt}
-\label{fig:ch4_placeholders}
-\end{figure}
 
-\section{Discussion}
+
+\subsection{Discussion}
 This study replicated the Blocks World Task with the aim to see if the effect on IAC on a copying task, as previously found when using colours, can be extended to copying numbers, and if a deeper encoding of numbers into memory makes people more accurate.
 
 The main findings are:
@@ -997,14 +1064,14 @@ Increases in IAC make people adopt memory-intensive strategies
 Increases in IAC increases errors
 \end{itemize}
 
-\subsection{The effect of block type on task strategies and performance}
+\subsubsection{The effect of block type on task strategies and performance}
 Changing the block type from colours to numbers made it easier to memorise the blocks: people made shorter and fewer visits than when copying colours, but were still able to place more blocks. This difference in performance is only found in the Medium and High IAC conditions, which further suggests the difference between numbers and colours is due to the memorability of the information, and the interactions on most of the dependent variables further show that the difference between block types was dependent on the level of IAC.
 
 The difference between numbers and colours fit well with the distinction in Baddeley's \citeyearpar{Baddeley1986} seminal model of working memory between processing visuo-spatial and verbal information. As numbers can be rehearsed and therefore refreshed in working memory, they are likely easier to memorise. After the study had ended, several participants in this study explained they used some sort of rehearsal and tried to say the numbers out loud in their head. For colours, some indicated they tried to either capture a mental picture of the colours in their mind, while others rehearsed the word for each colour (e.g. 'red' and 'blue') but they felt they were able to remember fewer items using this strategy. This is consistent with \citet{Chincotta1999}'s finding that people have a greater memory span for Arabic numerals (e.g. 1, 2, 3) than corresponding words (e.g. one, two, three).
 
 Though an increase in IAC made people rely on memory and people seemed to memorise numbers more easily than colours, an increase in IAC did not make people more accurate in copying numbers as in \citet{Gray2004}, where people had to memorise VCR programming information. The error rate for numbers was however already quite low in all conditions, and moreover people were not explicitly instructed or trained to memorise the information before each trial as in \citet{Gray2004}.
 
-\subsection{The effect of IAC on task strategies and performance}
+\subsubsection{The effect of IAC on task strategies and performance}
 The effect of IAC on people's cognitive strategies, as found in previous studies, is replicated in this study: as the cost of accessing the target window increased, people increasingly relied on memory \citep{Gray2006, Morgan2009, Waldron2007}. People switched from a perceptual to a memory-based strategy by making fewer but longer visits to the target window and placing more blocks immediately after the first visit. This strategy worsened their global performance as they took longer to complete the task and placed more incorrect blocks throughout the trials. 
 
 An increase in IAC also made people rely more on memory when copying numbers. When a mask was added over the target window, people visited the target window less often and they placed more blocks after the first visit. In both the Medium IAC and High IAC conditions, people on average placed around six blocks correctly after the first visit, after which they needed one more visit to look at the last three blocks. The average number of items people can memorise is 7$\pm$2 items \citep{Miller1956}, and potentially six blocks was the maximum that people could reasonably memorise.
@@ -1012,8 +1079,8 @@ An increase in IAC also made people rely more on memory when copying numbers. Wh
 In previous studies, adopting a memory-based strategy when copying text and numbers improved accuracy \citep{Gray2004, Soboczenski2013}. In the current study, the hypothesis that memorising numbers due to an increased IAC would make people more accurate is not supported. 
 The error rate was overall low and upon reflection the interaction of moving blocks may have made people sufficiently slow to hardly make any errors. In \citet{Gray2004} and \citet{Soboczenski2013}, people typed in data using a computer keyboard.
 
-\subsection{Summary}
-The purpose of this study was to study the effect of IAC on strategy, speed and accuracy, and investigate if the effect of IAC, as found in previous experimental studies, would extend to copying numbers. In order to be able to compare results of this study with previous IAC studies the same task paradigm of the Blocks World Task was used.
+\subsubsection{Summary}
+The purpose of this study was to study the effect of IAC on strategy, speed and accuracy when copying from one source, and investigate if the effect of IAC, as found in previous experimental studies, would extend to copying numbers. In order to be able to compare results of this study with previous IAC studies the same task paradigm of the Blocks World Task was used.
 
 The hypothesis that people would need fewer switches and would perform better for numbers than colours is supported, indicating that numbers are easier to memorise. The hypothesis that memorising numbers due to an increased IAC would make people perform better is not supported. The error rate was overall low and upon reflection the interaction of moving blocks may have made people sufficiently slow to hardly make any errors. Furthermore, in Study 1 people saved up data to enter a lot in one sequence, and errors increase as people have to copy more \citep{Healy2004}. Potentially the setup of this experiment was not suitable to reliably measure an increase in errors.
  
@@ -1021,117 +1088,48 @@ The information was copied from one source, and for each participant the IAC was
 
 Considering these limitations, it was decided after this study to not continue with the same task paradigm, but certain learning points can be taken away from this study.  
 
-First, the input method matters. An input method that is sufficiently slow may make people accurate, regardless of the level of IAC. 
+First, the entry method matters. An entry method that is sufficiently slow may make people accurate, regardless of the level of IAC. 
 Second, the effect of IAC generalises, but it is not clear how the results of this experimental paradigm can be translated in suggestions in how people dealing with differing levels of IAC can best be supported in their work. In contrast to this study, where information came from one source, and always had the same level of IAC for each participant, Study 1 showed that for entering expenses, people have to enter different types of information, these do not all come from the same source, and each source can have a different access cost.
 
 Third, the measured short visits in the Medium IAC conditions may have confounded the results. In future studies, the setup of the experiment should be designed so that participants do not accidentally access the source when they do not intend to.
 
-In order to be able to further conduct experiments that study how people can best be supported when retrieving information for a data entry task, it is important to understand where they have to get it from. Therefore, for the next study I will focus on the expenses task identified in Study 1 and look at the resources people need for this task, where they need to get it from, and how costly it is to access this information.
+The next study will try to more closely simulate the expenses task observed in the financial office setting of Study 1 and 2. People will have to enter and collect information from multiple sources with different IACs. The aim is to see how these differences in IAC influence people's switching strategies between entering and looking up data when copying from multiple sources. 
 
-\chapter{Study 3: Information sources for entering expenses}
-\fbox{\begin{minipage}{\textwidth}
-\subsubsection{Chapter outline}
-In this chapter, I give an outline for a planned study. The aim of this study is to investigate the information sources finance office workers need for an expenses task, and how they currently manage subtasks of looking up information from an expenses task.
-\end{minipage}}
+%In order to be able to further conduct experiments that study how people can best be supported when retrieving information for a data entry task, it is important to understand where they have to get it from. Therefore, the next study I will focus on the expenses task identified in Study 1 and look at the resources people need for this task, where they need to get it from, and how costly it is to access this information.
 
+
+\section{Study 4: copying data from multiple sources}
  
-\section{Introduction}
-The purpose of Study 1 was to get a better understanding of data entry tasks associated with finance administration office work, and the problems employees currently experience carrying out these tasks. I did not use a particular theoretical framework prior to undertaking the study to inform and guide the data collection, and did not explicitly focus on the different information sources needed for entering expenses per se.  It was only as data collection and analysis progressed, that it emerged that framing the findings in terms of different IACs had the potential to provide a useful lens on the data for understanding people's data entry strategies, and informing the design and evaluation of the data entry expense systems.
+\subsection{Introduction}
+%Study 3 will have given a better understanding of the expenses task, identified the information sources needed for this task and their levels of IAC, and will have given insight into how people manage subtasks to look up information.
+Study 3 has given an understanding of the effect of IAC on people's switching strategies when copying from one information source. As IAC increases, people will make fewer visits to the source and instead enter what is in their head. 
 
-A prevalent data entry task in the financial offices observed in Study 1 was entering expenses. For this task, workers had to look up information from multiple sources, and the IAC for each source differed. Study 2 showed that when people have to copy data from one source in a lab setting, and the IAC of this source increases, they try to memorise more information in order to reduce visits to the source. In the experiment, all information came from one source and was the same type, i.e. either all items were numbers, or all items were colours. For each participant, the IAC was the same throughout the experiment: it was either low, medium, or high. 
+The current study aims to investigate how differences in IAC affect people's strategies in switching between entering and looking up information from multiple sources, and whether different strategies affect performance.
 
-For the expenses task observed in Study 1, people have to enter different types of information, these do not all come from the same source, and the sources can have a different IACs. For example, some information can be recalled from memory, some has to be typed from a paper sheet, some numbers have to be calculated first, and some information has to be looked up in an electronic information system. 
-
-The purpose of this study is to investigate the information sources people need for an expenses task, and how they currently manage subtasks of looking up information from an expenses task. Do they look up information as they need it, or get all the required information first and then enter it? They may also change their strategies as they get more experienced with the task and know where to get the information from, or enter all information that is easy to access first.
-
-Ten finance employees will be observed at their workplace, with a particular focus on the information resources they need and use for entering expense claims into the financial computer system. I will shadow them doing their work, and will ask them to demonstrate the task while thinking aloud. They will be interviewed afterwards  and I will ask them questions about observations I made. 
-
-In order to better understand how people switch between applications for office work,\citet{Cangiano2009} made screen recordings of workers' activities in a law office. They then played these back to the workers, and asked them to explain their activities. These screen recordings were useful for workers to accurately recall what they were doing at the captured moments, and why they had certain windows open. If allowed, employees in the current study will be asked to make screen recordings of doing an expenses task and will be video recorded. 
-
-\section{Method}
-\subsection{Participants}
-Ten participants will take part in the study. They will be employees from financial offices at public universities dealing with processing expense claims. A combination of convenience and snowball sampling will be used to recruit the participants. Convenience sampling will be applied by distributing flyers, sending invitations to opt-in mailing lists of Finance departments from several universities, and by asking people from the user group that are familiar to the researcher. In addition, snowball sampling will be used by asking participants if they know colleagues who would potentially be interested to participate in the study. 
-Ideally a range of experience levels will be included, from beginner to experienced level. Participants will be reimbursed with \pounds15 and be entered in a prize draw to win \pounds50. 
-
-\subsection{Data collection}
-My data collection will be informed by two methodological approaches: contextual inquiry and think-aloud.
-
-\subsubsection{Contextual inquiry}
-Contextual inquiry is a combination of observation and interviewing users and their everyday work, with the aim to use the findings to inform design of the systems they use \citep{Beyer1998}.
-\citet{Beyer1998} argue that observing participants carrying out their work can reveal concrete details, and it can help participants to recall past situations of carrying out work. It is therefore considered to be an appropriate method for the aims of this thesis, as it involves understanding users' expenses work with the aim to translate it into design implications for their expenses system. 
-
-I will follow the four stages of \citet{Beyer1998}:
-\begin{enumerate}
-\item 
-Interview
-
-In this part, the participant will typically be asked general questions about their work. This part is primarily to make the participant feel comfortable and start the conversation easy. As I have already gained an insight on finance employees' general work in Study 1, this interview will be more particular focused on their expenses task. Participants will be asked about their experience with the system  and the resources they use, to get an idea of what they consider resources.
-\item 
-Transition
-
-In this part, the participant will demonstrate the expenses task and will be asked to think out loud. I will prompt questions if the participants falls quiet or will ask to elaborate if something interesting or unusual happens.
-\item 
-The contextual interview proper
-
-In this part, the participant will do his/her work while I observe and make notes. If allowed, participants will be video recorded. The participant will go about doing work without explaining what he/she is doing and why. 
-\item 
-Wrap-up
-
-In the final stage, I will ask questions about observations I made. I will summarise to the participant what I have found and check if this is correct. The participant will be thanked and debriefed.
-\end{enumerate}
-
-\subsection{Materials}
-Materials that will be used during the contextual inquiry are a voice recorder to record the interview, an interview script with guiding questions, a checklist to guide the observation and think-aloud part, a notebook and pen to make notes, and a consent form and information sheet for the participant.
-A number of interview questions will be written out beforehand. These questions are used as a starting point to get the participant talking and guide the interview. Based on what the participant is saying follow-up questions will be asked. 
-
-\section{Pilot study}
-In order to test the suitability of the study set-up, a pilot study was conducted with a financial administrator at a university who dealt with processing expenses. The study took place at the university, and notes were taken with pen and paper. 
-
-Initially, the intended method of this study was to conduct a contextual inquiry, followed by a week-long diary study where office workers would make a diary entry of their expenses tasks. Participants would submit a diary entry either by writing down a description or by taking a photograph of the task setting, showing the information sources. At the end of the day, they would be asked answer the following questions about their short entries: what information did you need, where did you need to get it from, and when did you look up the information. This method built on a study by \citet{Sohn2008}, where participants kept a diary of their mobile information needs and how they addressed those needs. 
-
-The administrator explained that expense tasks usually are conducted in the same manner, and predicted I was unlikely to find a lot of instances that differ from my observations of having office workers do the task.
-Furthermore, by observing them I am able to see the access people have to the resources and how much time it takes them to get the data, as well as when in the task they decide to look up information. This information would be more difficult to get insight to through diary entries.
-
-It was therefore decided after this study to not conduct a diary study but instead only observe office workers, and ask them to explain their work.
-
-\section{Data collection and analysis}
-The interviews will be transcribed verbatim, and transcripts will be analysed using thematic analysis. The data analysis program Atlas.ti will be used to code the data.
-
-\section{Ethical considerations}
-The advertisement will include what participants will be asked to do and what their reimbursement will be. 
-Participants will be briefed at the beginning of the interview. They are then asked to read and sign a consent form, and are given an information sheet with the study information and my contact details for them to keep. 
-It will be explained they are free to withdraw from the study at any time, and that their data will be used for research purposes only. They will be asked for permission to audio record the interview, and video record them doing their work. It will be explained that the purpose of the study is to get a better understanding of how they normally go about their work with an aim to improve the system, and that there are no right or wrong ways of doing tasks. 
-
-\chapter{Study 4: the effect of IAC on looking up information}
- 
-\section{Introduction}
-Study 3 will have given a better understanding of the expenses task, identified the information sources needed for this task and their levels of IAC, and will have given insight into how people manage subtasks to look up information.
-
-\subsection{Aim}
-This study aims to investigate in a controlled experiment to what extent people's strategies in switching between entering and looking up information from multiple sources is influenced by changes in IAC, and whether different strategies affect performance.
-
-The office setting of Study 1 and 3 will be simulated in a laboratory environment. Participants will have to retrieve data from a number of sources, and enter this into a desktop computer. The sources are on paper, on a second screen, or on the same screen as where the participant has to enter the data. I will use keylogging data to measure whether people interrupt entering data, presumably to retrieve data. Keylog intervals of more than > is considered to be an interruption. To supplement quantitative measures, I will video record and/or observe them and code the timing and frequency of visits people make to the different information sources.
+The office setting of Study 1 and 2 will be simulated in a laboratory environment. Participants will have to retrieve data from a number of sources, and enter this into a desktop computer. The sources are on paper, on a second screen, or on the same screen as where the participant has to enter the data. I will use keylogging data to measure whether people interrupt entering data, presumably to retrieve data. Keylog intervals of more than ... s is considered to be an interruption. To supplement quantitative measures, I will video record and/or observe them and code the timing and frequency of visits people make to the different information sources.
+The data participants have to enter will be similar to data that is entered for an expenses task: this includes names, financial numbers, and alphanumeric strings. 
 
 It is expected people will develop strategies as they have to enter data over an extended period of time. 
 For example, they may initially look up each data item the moment they need it, but as they become familiar with the IAC of sources, they may first finish entering all information from low IAC sources, before looking up information of high IAC sources. 
 
-Office workers from Study 1 and 3 have experience with entering expenses and have found ways to optimise their work. If it is not possible for this user group to participate in the laboratory experiments, I will have to pilot it to see how long the experiment needs to run, in order to allow enough time for participants to exhibit changes in strategies. For example, people might need to conduct the experiment for an hour, or come in for multiple sessions.
+Office workers from Study 1 and 2 have experience with entering expenses and have found ways to optimise their work. If it is not possible for this user group to participate in the laboratory experiments, I will have to pilot it to see how long the experiment needs to run, in order to allow enough time for participants to exhibit changes in strategies. For example, people might need to conduct the experiment for an hour, or come in for multiple sessions.
 
 The identified behaviour of how people manage looking up information is used to create a set of design recommendations for the current expenses system. 
 
-\subsection{Hypotheses}
+\subsubsection{Hypotheses}
 \begin{itemize}
+\item
+As IAC increases, people try to memorise and copy over more data from one source in one go.
 \item 
-Participants will be slower to resume the entry task after looking up information from high IAC sources than information from low IAC sources.
-\item  
-as IAC increases, people try to memorise and copy over more data from one source in one go.
+ will be slower to resume the entry task after looking up data from high IAC sources than data from low IAC sources.
 \item 
-People will initially look up items at the moment in the task they need it.
+People will initially enter data in the order in which they are presented on the computer. They will look up items at the moment in the task they need it.
 \item 
 As the experiment progresses and they become aware how costly it is to access certain sources, people will learn and choose to enter all the low-IAC items first, in a batch, and then the high-IAC items second, also in a batch, rather than looking up each item as they need it. 
+ 
 \end{itemize}
 
-\subsection{Contributions}
+\subsubsection{Contributions}
 \begin{itemize}
 \item   
 IAC also affects people's strategies of switching between entering and looking at the target source when multiple sources are involved.
@@ -1141,27 +1139,23 @@ IAC affects how people manage subtasks of looking up information in a data entry
 Users optimise costs by processing all the low-IAC tasks first, in a batch, and then the high-IAC tasks second, also in a batch, rather than switching between the two different types of task.  
 \end{itemize}
 
-\chapter{Study 5: evaluating design changes in a lab setting}
- 
+\chapter{Further studies}
+\fbox{\begin{minipage}{\textwidth}
+\subsubsection{Chapter outline}
+
+In this chapter I describe two planned future studies that explore if design interventions can make people adopt more desirable strategies, i.e. strategies that minimise switching between entering data and looking up the required data. The details of the setup will be further determined by the outcome of the previous studies, but here I describe the intended goals of these two studies.
+
+\end{minipage}}
+
 \section{Introduction}
-The findings of the previous studies will have shown the influence of IAC on people's strategies of managing looking up information and how different strategies may be more efficient and accurate than others. 
 
-It will have highlighted some functionalities that a data entry expenses system needs to offer users. These findings are translated into a set of requirements. These are used to test the existing system against, and used to develop possible future design recommendations suited to the task of entering expenses. 
+The findings of the previous studies will have given insight into the influence of IAC on people's strategies of managing looking up information and how different strategies may be more efficient and accurate than others. These findings are translated into a set of heuristics. These heuristics are used to test the existing system against, and used to develop possible future design recommendations suited to the task of entering expenses. 
 
-The design recommendations will take into account both findings from Study 4 on what influences people's strategies and what is desirable, as well as the setting studied in Study 1 and 3 and what is feasible. For example, desired changes in the actual interface may be too expensive to be realistic, and it may be more feasible to change the way information sources are designed, or how these are laid out in the user's environment. Screenshots of the current interface system will be used (initial ones were obtained in Study 1, additional ones will be obtained in Study 3). 
+The design recommendations will take into account both findings from Study 3 and 4 on what influences people's strategies and what is desirable, as well as the setting studied in Study 1 and 2 and what is feasible. For example, desired changes in the actual interface may be too expensive to be realistic, and it may be more feasible to change the way information sources are designed, or how these are laid out in the user's environment. Screenshots of the current interface system will be used (initial ones were obtained in Study 1, additional ones will be obtained in Study 2). 
 
-\subsection{Aim}
-Study 5 aims to evaluate different design recommendations in a controlled experiment. It will use the same task paradigm as Study 4, but change some aspects of the task, to see if these changes have an influence on the strategies people adopt in looking up information for a data entry task.
-and whether these changes can make people adopt strategies that improve accuracy. 
+Study 5 aims to test different designs in a controlled experiment, to investigate if changing design features influences people's switching strategies and their speed and accuracy in data entry. It will use the same task paradigm as Study 4 and compare different designs, to see if these changes have an influence on the strategies people adopt in looking up information for a data entry task, and whether these changes can make people adopt strategies that improve accuracy. 
 
-
-\subsection{Hypotheses}
-\begin{itemize}
-\item   
-Visually grouping low-IAC items and high-IAC items in the entry system can support users in minimising switch costs between entering and looking up information. 
-\item
-Providing shortcuts for entering frequently used information can reduce switches needed between entering and looking up information. 
-\end{itemize}
+Study 6 aims to evaluate the design recommendations in a finance office with workers, to see how appropriate and feasible the proposed recommendations would be in the context for which they are developed. Depending on what the design recommendations will be, I will take them through a prototype, which can be a paper prototype, storyboard, or digital mockup, and if possible I will ask them to perform the task with and without the proposed changes. 
 
 \subsection{Contributions}
 \begin{itemize}
@@ -1169,26 +1163,11 @@ Providing shortcuts for entering frequently used information can reduce switches
 Development of design recommendations for an expenses system
 \item
 Demonstrate how an understanding of the used information sources and people's switching strategies between entering and looking up information can be used to adapt the design of the data entry interface. 
-\end{itemize}
-
-
-\chapter{Study 6: evaluating design changes in a financial office setting}
- 
-\section{Introduction}
-Study 5 will have tested the design recommendations in a controlled environment and will have given insight if changing certain design features influences people's strategies, speed and accuracy.  
-
-\subsection{Aim}
-Study 6 aims to evaluate the design recommendations in a finance office with workers, to see how appropriate and feasible the proposed recommendations would be in the context for which they are developed. Depending on what the design recommendations will be, I will take them through a prototype, which can be a paper prototype, storyboard, or digital mockup, and if possible I will ask them to perform the task with and without the proposed changes. 
-
-\subsection{Contributions}
-\begin{itemize}
 \item
 Demonstrate how the design recommendations could be implemented in the financial office setting in which the expenses task is currently done. 
 \item
 Demonstrate how the design recommendations can influence people's strategies in entering expenses in a financial office setting.
 \end{itemize}
-}
-
 
 \bibliographystyle{apacite}
 \bibliography{Thesis}
