@@ -661,6 +661,40 @@ Gould, S\BPBI J\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gould%
+, Cox%
+\BCBL {}\ \BBA {} Brumby%
+}{%
+Gould%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Gould2016}
+\APACinsertmetastar {%
+Gould2016}%
+\begin{APACrefauthors}%
+Gould, S\BPBI J\BPBI J.%
+, Cox, A\BPBI L.%
+\BCBL {}\ \BBA {} Brumby, D\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Diminished {Control} in {Crowdsourcing}: {An}
+  {Investigation} of {Crowdworker} {Multitasking} {Behavior}} {Diminished
+  {Control} in {Crowdsourcing}: {An} {Investigation} of {Crowdworker}
+  {Multitasking} {Behavior}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Trans. Comput.-Hum. Interact.}{23}{3}{19:1--19:29}.
+\newblock
+\begin{APACrefURL} [{2016-07-04}]\url{https://dl.acm.org/authorize?N16948}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2928269} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gray%
 \ \BBA {} Fu%
 }{%
@@ -1126,9 +1160,9 @@ S\BPBI Y\BPBI W.~Li%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2016}}%
 }]{%
-LiSimon2015}
+Li2015}
 \APACinsertmetastar {%
-LiSimon2015}%
+Li2015}%
 \begin{APACrefauthors}%
 Li, S\BPBI Y\BPBI W.%
 , Cox, A.%
