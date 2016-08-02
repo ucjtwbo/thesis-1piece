@@ -19,6 +19,24 @@
 \usepackage[font={footnotesize}]{caption}
 \usepackage{subcaption}
 
+
+\usepackage[framemethod=tikz]{mdframed} %Adds control over nice customisable text boxes
+\usepackage{enumitem} %Adds customisation of item lists
+\usepackage{pifont} %Adds access to special chars like the ones I use in the chapter summary boxes
+\usepackage{framed} %Adds the frame support
+
+%Create a new element - the chapter summary box
+\newmdenv[
+%shadow=true,
+%leftline=false,
+%rightline=false,
+linewidth=1pt,
+%font={\sffamily},
+innertopmargin=10pt,
+innerbottommargin=20pt,
+innerrightmargin=20pt,
+]{mynote}
+
 \begin{document}
 
 \input{title.tex}
@@ -47,10 +65,10 @@ The primary contribution of this thesis is to show the fragmented nature of an e
 \listoftables
 \chapter{Introduction}
 
-\noindent\fbox{\noindent\begin{minipage}{\textwidth}
+\begin{mynote}
 \subsubsection{Chapter outline}
 In this chapter, I outline the problem I am addressing in this thesis, and the proposed contribution.
-\end{minipage}}
+\end{mynote}
 
 \vspace{10pt}
  
@@ -69,18 +87,32 @@ For the scope of this thesis, I look specifically at how employees in financial 
 
 The expenses task serves as an example of a wider class of data entry tasks, and it can be imagined findings of this thesis can be useful and generalise to other, similar, tasks. For example, people who have to fill in their tax returns have to similarly enter a range of information into a computer system, and have to collect this information from multiple sources with varying IACs.
 
+The research questions of this thesis are:
+
+\begin{enumerate}
+\item Does the IAC of information sources affect how people manage subtasks to look up information for an expenses task in a finance office setting?
+\begin{enumerate}
+\item	What (types of) information do people need for entering expenses?
+\item	Where do people need information from?
+\item	How do they address those needs?
+\item	Does the type of information, and where they need it from, affect how people address these needs?
+\end{enumerate}
+\item	How can the existing data entry system be redesigned to support or better support people managing subtasks of looking up information for entering expenses, given variable IACs for required information sources?
+\end{enumerate}
+
+
 The first contribution of this thesis is to map out the fragmented nature of an expenses task, of which looking up information is a substantial part of the task. It investigates how the information access cost of required information sources affects how people manage when they look up certain information. This finding has implications for the design of the current system: a second contribution is demonstrating how changing certain design features can better support people in managing these subtasks of looking up information.
 
 
 
 \chapter{Background}\label{ch:Background}
-\fbox{
-\begin{minipage}{\textwidth}
+
+\begin{mynote}
 %\vspace{0.5cm}
 \subsubsection{Chapter outline}
 In this chapter, I review previous literature on which I build my research on expenses tasks in a financial office setting. The first half of the chapter will focus on the data entry task, and how certain design changes can influence people's speed and accuracy. The second half of the chapter will focus on the setting, and discuss challenges of performing tasks in an office environment.
 %\vspace{0.2cm}
-\end{minipage}}
+\end{mynote}
 
 \section{Data entry}
 A data entry task can be broken down in four stages (see Figure \ref{fig:ch2_hip}). An information source contains the input, i.e. the data to be entered. In the perception stage, the user perceives this data. In the encoding stage, the user encodes these in the mind. In the execution stage, the user enters them into a device which produces the output of the task, namely the data entered. Additionally, there can be a checking stage where the user checks their entered output against the original input to see if it matches.
@@ -311,13 +343,13 @@ It is not known yet how these designs can be used in an office setting, where pe
 In order to design interactive systems that truly support this type of data entry task, it is necessary to get a detailed understanding of the task in this setting, how users manage subtasks of looking up information for the data entry task, and to what extent the costs to access required resources affect their strategies.
 
 \chapter{Entering expenses in a financial setting}\label{ch:Study1}
-\fbox{\begin{minipage}{\textwidth}
+\begin{mynote}
 \subsubsection{Chapter outline}
 
 In this chapter I describe the findings of an explorative interview study about data entry in a financial work setting. The aim of this study was to get a better understanding of the type of data entry task people at finance offices conduct, and the physical environment in which this is done.
 A second planned study is described, that aims to investigate the information sources finance office workers need for an expenses task, and how they currently manage subtasks of looking up information.
 
-\end{minipage}}
+\end{mynote}
 
 \section{Study 1: Understanding data entry work in a financial office}\label{ch:Study1}
  
@@ -855,11 +887,13 @@ The interviews will be transcribed verbatim, and transcripts will be analysed us
 
 \subsubsection{Expected findings}
 \begin{itemize}
-\itemPeople will have to switch multiple times between different data sources as part of the same expenses task.
+\item
+People will have to switch multiple times between different data sources as part of the same expenses task.
 \item
 The IAC of these data sources varies. 
 \item
-If IAC of an information source is high, people will rely more on knowledge in the head: they will copy over more data in one go when IAC is high.\item
+If IAC of an information source is high, people will rely more on knowledge in the head: they will copy over more data in one go when IAC is high.
+\item
 Batching is a task planning strategy that gets employed by people with some experience in the task, in order to reduce switching between data entry tasks, and other tasks.  People will save up data entry tasks to do them all in one sequence.
 
 Depending on people's experience and awareness of how costly it is to access information, people may plan their expenses task to reduce switching between entering and looking up information. They choose to enter all the low-IAC items first, in a batch, and then the high-IAC items second, also in a batch, rather than looking up each item as they need it.  An explanation for this is that they minimise the start-up costs of the entry task.
@@ -876,14 +910,15 @@ Evidence that depending on people's experience and awareness of how costly it is
 \end{itemize}
 
 \chapter{Understanding the effect of IAC on looking up information}
-\fbox{\begin{minipage}{\textwidth}
+
+\begin{mynote}
 \subsubsection{Chapter outline}
 The previous chapter demonstrated that for an expenses task, people have to copy data from multiple sources that differ in terms of their IAC. This chapter describes two studies that explore the extent to which IACs influence strategies, speed and accuracy. 
 
 Study 3 tests how IAC affects switching behaviour when copying from one source. It tested whether the effect of IAC on copying colours, as shown in previous studies, extends to copying numbers. Study 4 tests how IAC affects switching behaviour when information for one entry task has to be collected from multiple sources.
 Together these studies intend to show that IAC affects how people switch between entering and looking up information.
 
-\end{minipage}}
+\end{mynote}
 
  
 \section{Study 3: Copying numbers from one source}\label{ch:Study2}
@@ -1151,15 +1186,16 @@ The next study will try to more closely simulate the expenses task observed in t
  
 \subsection{Introduction}
 %Study 3 will have given a better understanding of the expenses task, identified the information sources needed for this task and their levels of IAC, and will have given insight into how people manage subtasks to look up information.
-Study 3 has given an understanding of the effect of IAC on people's switching strategies when copying from one information source. As IAC increases, people will make fewer visits to the source and instead enter what is in their head. 
+Study 1 and 2 showed that for an expenses task, people have to collect the data to enter from multiple sources. Some of these sources are easy to access such as paper sheets on a desk, while others have a higher IAC, such as a computer document or window that takes time to open and view.
 
+Study 3 has given an understanding of the effect of IAC on people's switching strategies when copying from one information source. As IAC increases, people make fewer visits to the source and instead enter what is in their head. 
 The current study aims to investigate how differences in IAC affect people's strategies in switching between entering and looking up information from multiple sources, and whether different strategies affect performance.
 
 The office setting of Study 1 and 2 will be simulated in a laboratory environment. Participants will have to retrieve data from a number of sources, and enter this into a desktop computer using keyboard and mouse. The sources will be made to resemble the sources identified in Study 1 and 2 and will be on paper, on a second computer screen, or on the same screen as where the participant has to enter the data. The data participants have to enter will be similar to data that is entered for an expenses task: this includes names, financial numbers, and alphanumeric strings. 
 
 Study 3 used eyetracking data and mouse movements to measure number and duration of visits to the target source. For the setup in this experiment, these measurements are not possible for visits to paper sources with the eyetracking equipment available.
 I will therefore video record and/or observe participants and code the timing and number of visits people make to the different information sources.
-To supplement these with quantitative measures, I will also measure keylogging data to get further insight whether and how long people interrupt entering data, presumably to retrieve data. In accordance with \citet{Gould2016}, intervals of more than 5s is considered to be an interruption. 
+To supplement these with quantitative measures, I will also measure keylogging data to get further insight whether and how long people interrupt entering data, presumably to retrieve data. In accordance with \citet{Gould2016}, intervals of more than 5s are considered to be an interruption. 
 
 A within-subjects design will be used. The independent variables will be type of data (e.g. names, financial numbers, and alphanumeric strings), and IAC of the information sources. Dependent variables will be number of visits to sources, timing of visits, resumption lag, interkey intervals, typing speed, and error rate.
 
@@ -1168,14 +1204,13 @@ For example, they may initially look up each data item the moment they need it, 
 
 Office workers from Study 1 and 2 have experience with entering expenses and have found ways to optimise their work. If it is not possible for this user group to participate in the laboratory experiments, I will have to pilot it to see how long the experiment needs to run, in order to allow enough time for participants to exhibit changes in strategies. For example, people might need to conduct the experiment for an hour, or come in for multiple sessions.
 
-The identified behaviour of how people manage looking up information is used to create a set of design recommendations for the current expenses system. 
+The identified behaviour of how people manage looking up information is used to create a set of design recommendations for the current expenses system, which are evaluated in Study 5 and 6.
 
 \subsubsection{Hypotheses}
 \begin{itemize}
 \item
 As IAC increases, people try to memorise and copy over more data from one source in one go.
-\item 
-People will be slower to resume the entry task after looking up data from high IAC sources than data from low IAC sources.
+
 \item 
 People will initially enter data in the order in which they are presented on the computer. They will look up items at the moment in the task they need it.
 \item 
@@ -1184,7 +1219,9 @@ As the experiment progresses and they become aware how costly it is to access ce
 \end{itemize}
 
 \subsubsection{Contributions}
+Demonstration that:
 \begin{itemize}
+
 \item   
 IAC also affects people's strategies of switching between entering and looking at the target source when multiple sources are involved.
 \item
@@ -1195,12 +1232,12 @@ Depending on users' experience and awareness of how costly it is to access infor
 
 \chapter{Evaluating design changes to improve performance in data entry with varying IACs}
 
-\fbox{\noindent\begin{minipage}{\textwidth}
+\begin{mynote}
 \subsubsection{Chapter outline}
 The previous chapter demonstrated that IAC affects how people switch between entering and looking up information. This chapter describes two studies that, given varying IACs, explore the extent to which design changes to the data entry interface can influence strategies, speed and accuracy. Study 5 evaluates these in a controlled setting, to see if making design changes influence the strategies people adopt, and can make people adopt more accurate and/or efficient strategies. Study 6 evaluates them in the office setting, to ascertain how appropriate the proposed recommendations are in the context in which they would be used.
 
 Together these studies intend to show that the new interface makes people switch less between entering and looking up information, which makes them faster to complete the data entry task overall and can reduce errors.
-\end{minipage}}
+\end{mynote}
 
 \section{Introduction}
 
