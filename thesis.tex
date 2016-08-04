@@ -11,6 +11,9 @@
 \usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 \usepackage{tabularx}
+\usepackage{fontspec}
+
+\linespread{1.3}
 
 \usepackage{lmodern}
 
@@ -38,7 +41,7 @@ innerrightmargin=20pt,
 ]{mynote}
 
 \begin{document}
-
+\setmainfont{Gill Sans MT}
 \input{title.tex}
 
 \begin{abstract}
@@ -120,7 +123,7 @@ A data entry task can be broken down in four stages (see Figure \ref{fig:ch2_hip
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.8\textwidth]{images/HIP.pdf}
-\caption{The different stages of a routine data entry task: a user perceives data input, encodes these in the mind, executes certain actions to enter data and produce the output, and can check the output against the original input.}
+\caption[Different stages of a data entry task]{The different stages of a routine data entry task: a user perceives data input, encodes these in the mind, executes certain actions to enter data and produce the output, and can check the output against the original input.}
 \vspace{-3pt}
 \label{fig:ch2_hip}
 \end{figure}
@@ -241,7 +244,7 @@ The speed with which users enter data can be influenced by the design of the inp
 \label{fig:incremental}
 \end{subfigure}
 
-\caption{Two different number entry interfaces tested in \citeauthor{Oladimeji2011}'s study.}
+\caption[An incremental and keypad number entry interface.]{Two different number entry interfaces tested in \citeauthor{Oladimeji2011}'s study.}
 
 \label{fig:interface-styles}
 \end{center}
@@ -388,7 +391,7 @@ P8       & 52        & M            & British           & \begin{tabular}[c]{@{}
 P9       & -         & F            & British           & Payroll Officer                                                              & B                & 13y                                                                                               & \begin{tabular}[c]{@{}l@{}}salaries,\\ expenses,\\ pensions,\\ employee \\ information\end{tabular} 
 \end{tabular}
 }
-\caption{Participant information.}
+\caption[Study 1 participant information]{Participant information.}
 \label{table:ch3_participants}
 \end{table}
 
@@ -407,7 +410,7 @@ Environment & This topic includes people's physical work environment, and the or
 Demonstration &  Interviewees were asked to give a demonstration of entering data into their system. The aim of this part of the interview is to see the type of data entry tasks people have to do, and also gives a chance to see the information sources and systems people currently use. \\
     \hline
     \end{tabular}
-    \caption{Interview topics.}
+    \caption[Study 1 interview topics]{Interview topics.}
     \label{table:ch3_interviewtopics}
 \end{table}%
 
@@ -462,7 +465,7 @@ In total 51 codes were derived, and these were grouped into 8 main themes, which
     \hline
     \end{tabular}
     }
-    \caption{The themes, along with a description. The column Quotations indicates how many times this theme was brought up during interviews, and the column Participants indicates how many participants talked about it.}
+    \caption[Study 1 Themes]{The themes, along with a description. The column Quotations indicates how many times this theme was brought up during interviews, and the column Participants indicates how many participants talked about it.}
     \label{table:ch3_themes}
 \end{table}
 
@@ -474,7 +477,7 @@ The results are ordered according to the number of quotations associated with a 
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Task.png}
-\caption{Diagram showing the theme Task. The numbers in parentheses indicate the number of quotes and the number of participants who mentioned it, respectively.}
+\caption[Study 1 Task diagram]{Diagram showing the theme Task. The numbers in parentheses indicate the number of quotes and the number of participants who mentioned it, respectively.}
 \vspace{-9pt}
 \label{fig:ch3_task}
 \end{figure}
@@ -492,7 +495,7 @@ The time spent on each task differed: checking data on a short expenses form cou
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Checking.pdf}
-\caption{Diagram showing the theme Checking.}
+\caption[Study 1 Checking diagram]{Diagram showing the theme Checking.}
 \vspace{-9pt}
 \label{fig:ch3_checking}
 \end{figure}
@@ -514,7 +517,7 @@ People had to both check their own data input, as well as double-check other peo
 
     \hline
     \end{tabular}
-    \caption{Verbatim quotes taken from the interview transcripts that were about checking.}
+    \caption[Study 1 checking quotes]{Verbatim quotes taken from the interview transcripts that were about checking.}
     \label{table:ch3_checkingquotes}
 \end{table}%
 
@@ -529,7 +532,7 @@ People had to both check their own data input, as well as double-check other peo
 
     \hline
     \end{tabular}
-    \caption{Checking own input when entering data.}
+    \caption[Study 1 checking own input]{Checking own input when entering data.}
     \label{table:ch3_owninputquotes}
 \end{table}%
 
@@ -544,7 +547,7 @@ People had to both check their own data input, as well as double-check other peo
 
     \hline
     \end{tabular}
-    \caption{Checking other people's input.}
+    \caption[Study 1 checking other people's input]{Checking other people's input.}
     \label{table:ch3_otherinputquotes}
 \end{table}%
 
@@ -553,7 +556,7 @@ People had to both check their own data input, as well as double-check other peo
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/System.pdf}
-\caption{Diagram showing the theme System.}
+\caption[Study 1 System diagram]{Diagram showing the theme System.}
 \vspace{-9pt}
 \label{fig:ch3_system}
 \end{figure}
@@ -567,7 +570,7 @@ The information needed for one task was usually spread over several windows on t
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Environment.pdf}
-\caption{Diagram showing the theme Environment.}
+\caption[Study 1 Environment diagram]{Diagram showing the theme Environment.}
 \vspace{-9pt}
 \label{fig:ch3_environment}
 \end{figure}
@@ -585,7 +588,7 @@ Some participants felt the pressure to be both accurate in data entry, as well a
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Data.pdf}
-\caption{Diagram showing the theme Data.}
+\caption[Study 1 Data diagram]{Diagram showing the theme Data.}
 \vspace{-9pt}
 \label{fig:ch3_data}
 \end{figure}
@@ -602,7 +605,7 @@ Numeric data consisted of individual numbers, as well as groups of numbers that 
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Errors.pdf}
-\caption{Diagram showing the theme Errors.}
+\caption[Study 1 Errors diagram]{Diagram showing the theme Errors.}
 \vspace{-9pt}
 \label{fig:ch3_errors}
 \end{figure}
@@ -621,7 +624,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
     P4 & Yes all the time, lots of typos.\\ 
     \hline
     \end{tabular}
-    \caption{People mentioned errors occur quite frequently.}
+    \caption[Study 1 errors quotes]{People mentioned errors occur quite frequently.}
     \label{table:ch3_occurrenceerrorsquotes}
 \end{table}%
 
@@ -635,7 +638,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
     P5 & \textit{"the expense breakdown doesn't match what (...) whatever they put as the grand total."}\\ 
     \hline
     \end{tabular}
-    \caption{The type of errors.}
+    \caption[Study 1 type of errors quotes]{The type of errors.}
     \label{table:ch3_typeoferrorsquotes}
 \end{table}%
 
@@ -650,7 +653,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
     P8 & \textit{"sometimes, you know, through human error, you know, things don't get paid properly."} \\
     \hline
     \end{tabular}
-    \caption{The reasons for errors.}
+    \caption[Study 1 reasons for errors quotes]{The reasons for errors.}
     \label{table:ch3_errorreasonsquotes}
 \end{table}%
 
@@ -666,7 +669,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
 
     \hline
     \end{tabular}
-    \caption{Acceptable errors.}
+    \caption[Study 1 acceptable errors quotes]{Acceptable errors.}
     \label{table:ch3_acceptableerrorsquotes}
 \end{table}%
 
@@ -675,7 +678,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Strategy.pdf}
-\caption{Diagram showing the theme Strategy.}
+\caption[Study 1 Strategy diagram]{Diagram showing the theme Strategy.}
 \vspace{-9pt}
 \label{fig:ch3_strategy}
 \end{figure}
@@ -703,7 +706,7 @@ People explained that a lot of numbers they enter are calculated from other numb
     P4 &  It's difficult to take rests or even switch in-between number entry tasks because of the work pressure, and feels pressure by boss. \\ 
     \hline
     \end{tabular}
-    \caption{Most participants entered all numbers in one go.}
+    \caption[Study 1 batching quotes]{Most participants entered all numbers in one go.}
     \label{table:ch3_inonegoquotes}
 \end{table}%
 
@@ -715,7 +718,7 @@ People explained that a lot of numbers they enter are calculated from other numb
     P3 &  \textit{" I wouldn't necessarily have to [memorise numbers], It's more just if you have to keep flicking back to different things, it's sometimes just easier to write it down, or just try and remember it. But you can obviously take the long version and keep flicking back to the correct screen."} \\ \hline
     P2 & \textit{"we have different grants and different project codes as a result, but you, because you use them so much, you end up remembering them."} \\ \hline
     \end{tabular}
-    \caption{Examples of strategies people used.}
+    \caption[Study 1 strategy quotes]{Examples of strategies people used.}
     \label{table:ch3_strategiesquotes}
 \end{table}%
 
@@ -725,7 +728,7 @@ People explained that a lot of numbers they enter are calculated from other numb
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Papertrail.pdf}
-\caption{Diagram showing the theme 'Importance of accuracy and paper trails'.}
+\caption[Study 1 Importance of accuracy and paper trails diagram]{Diagram showing the theme 'Importance of accuracy and paper trails'.}
 \vspace{-9pt}
 \label{fig:ch3_papertrail}
 \end{figure}
@@ -741,7 +744,7 @@ Hard copies of data had to be archived and were checked by external auditors. Fo
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study1/Other.pdf}
-\caption{If people described issues, it usually had to do with the system.}
+\caption[Study 1 Other diagram]{If people described issues, it usually had to do with the system.}
 \vspace{-9pt}
 \label{fig:ch3_other}
 \end{figure}
@@ -757,7 +760,7 @@ Interviewees mentioned several issues they experienced. Most of the time, the is
     P7 & \textit{"It's only the matter of how you get used to the Payroll system. Because companies have different systems, the data inputting can take a while to get used to it."} \\ \hline
     P9 &  \textit{"You know, all systems are a bit funny, I think. But you just gotta get used to it."} \\ \hline
     \end{tabular}
-    \caption{Issues that participants experienced with the system.}
+    \caption[Study 1 issues quotes]{Issues that participants experienced with the system.}
     \label{table:ch3_otherquotes}
 \end{table}%
 
@@ -865,7 +868,7 @@ A number of interview questions will be written out beforehand. These questions 
 \subsubsection{Pilot study}
 In order to test the suitability of the study set-up, a pilot study was conducted with a financial administrator at a university who dealt with processing expenses. The study took place at the university, and notes were taken with pen and paper. 
 
-Initially, the intended method of this study was to conduct a contextual inquiry, followed by a week-long diary study where office workers would log diary entries of their expenses tasks. The aim of this diary study would be to get a further insight in additional information sources they may sometimes use, that were not covered in the contextual inquiry.  Participants would submit a diary entry either by writing down a description or by taking a photograph of the task setting, showing the information sources. At the end of the day, they would be asked answer the following questions about their short entries: what information did you need, where did you need to get it from, and when did you look up the information. This method built on a study by \citet{Sohn2008}, where participants kept a diary of their mobile information needs and how they addressed those needs. 
+Initially, the intended method of this study was to conduct a contextual inquiry, followed by a week-long diary study where office workers would log diary entries of their expenses tasks. The aim of this diary study would be to get a further insight in additional information sources they may sometimes use, that were not covered in the contextual inquiry.  Participants would submit a diary entry either by writing down a description or by taking a photograph of the task setting, showing the information sources. At the end of the day, they would have to answer the following questions about their short entries: what information did you need, where did you need to get it from, and when did you look up the information. This method built on a study by \citet{Sohn2008}, where participants kept a diary of their mobile information needs and how they addressed those needs. 
 
 The administrator explained that expense tasks usually are conducted in the same manner, and predicted I was unlikely to find a lot of instances that differ from my observations of having office workers do the task.
 Furthermore, by observing them I am able to see the access people have to the resources and how much time it takes them to get the data, as well as when in the task they decide to look up information. This information would be more difficult to get insight to through diary entries.
@@ -971,7 +974,7 @@ Number of incorrectly placed blocks (per trial) \\
 Number of incorrectly submitted trials (per experiment block) \\
 Trial completion time incl. and excl. lockout (s) \\ \hline
     \end{tabular}
-    \caption{Dependent variables used in the study.}
+    \caption[Study 3 dependent variables]{Dependent variables used in the study.}
     \label{table:ch4_dvs}
 \end{table}
 
@@ -990,7 +993,7 @@ Trial completion time incl. and excl. lockout (s) \\ \hline
 \caption{The colour condition.}
 \label{fig:ch4_NWT}
 \end{subfigure}
-\caption{The task lay-out with the three different components.}
+\caption[Study 3 task lay-out]{The task lay-out with the three different components.}
 \label{fig:ch4_taskparadigm}
 \end{center}
 \end{figure}
@@ -1010,9 +1013,9 @@ Participants were welcomed and briefed about the experiment. It was explained th
 The experiment was broken down in two parts, one where they had to copy colours, and one where they had to copy numbers. For each part, they were given two practice trials first to get familiar with the set-up, and to give them a chance to ask questions if anything was unclear. There was an opportunity for the participant to take a break between the two parts. 
 They were then asked to read and sign a consent form and given an information sheet with a summary of the study and the researcher's contact details. In addition to the verbal briefing, the explanation of the study was written out on the computer screen for the participant to read and they were shown an instruction video that showed how the experiment worked. The study took around 20-30 minutes to complete.
 
-\subsubsection{Ethical considerations}
+\subsubsection{Ethical considerations}\label{sec:quanethics}
 The study was undertaken with ethical approval from the UCL Research Ethics Committee [Project ID Number UCLIC/1415/001/Staff Brumby/Borghouts]. 
-At the start of each study, participants were first briefed verbally about the study. They were asked to read and sign a consent form, and were given an information sheet to keep. This information sheet contained a summary of the study information and the researchers' contact details. It was explained that an eyetracker would record their eye fixations and movements, but that they would not be video recorded and that they would not be directly identifiable from these recordings.
+At the start of each study, participants were first briefed verbally about the study. They were asked to read and sign a consent form, and were given an information sheet to keep. This information sheet contained a summary of the study information and the researchers' contact details. It was explained that an eyetracker would record their eye fixations and movements, but that they would not be video recorded and that they would not be directly identifiable from these recordings. After participants had completed the first part of the experiment, a prompt appeared on the screen advising them to take a short break. Participants were free to choose when to finish the break and continue with the second part of the experiment.
 
 Participants were informed that the data would be used for research purposes only and stored in accordance with the Data Protection Act 1998. They were also informed that their data would be anonymised and when used in a report or academic paper, their data would not be directly identifiable. 
  
@@ -1060,7 +1063,7 @@ Trial completion time excl. lockout
 
 \bottomrule
 \end{tabular}
-\caption{The effect of IAC on copying colours and numbers. The means are shown in bold, the standard deviations are below the means.}
+\caption[Study 3 descriptive measures]{The effect of IAC on copying colours and numbers. The means are shown in bold, the standard deviations are below the means.}
 \label{table:ch4_IACmeans}
 \end{table}
 
@@ -1072,7 +1075,7 @@ Participants made fewer visits to the target source when they had to copy number
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study2/ch4_noVisits-bargraph.pdf}
-\caption{The interaction between block type and IAC for number of visits to the target window. The error bars represent $\pm $1 standard error.}
+\caption[Study 3 number of visits]{The interaction between block type and IAC for number of visits to the target window. The error bars represent $\pm $1 standard error.}
 \vspace{-9pt}
 \label{fig:ch4_noVisits}
 \end{figure}
@@ -1083,7 +1086,7 @@ There was no significant main effect of block type on the duration of the first 
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study2/ch4_firstVisitDuration-bargraph.pdf}
-\caption{The effect of IAC on the duration of the first visit to the target window. The error bars represent $\pm $1 standard error.}
+\caption[Study 3 duration of first visit]{The effect of IAC on the duration of the first visit to the target window. The error bars represent $\pm $1 standard error.}
 \vspace{-9pt}
 \label{fig:ch4_firstVisitDuration}
 \end{figure}
@@ -1094,7 +1097,7 @@ People placed more blocks correctly after the first visit for numbers (M = 4.77,
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=\textwidth]{images/Study2/ch4_firstCorrectBlocks-bargraph.pdf}
-\caption{The interaction between block type and IAC for number of blocks correctly placed after the first visit to the target window. The error bars represent $\pm $1 standard error.}
+\caption[Study 3 number of blocks correctly placed]{The interaction between block type and IAC for number of blocks correctly placed after the first visit to the target window. The error bars represent $\pm $1 standard error.}
 \vspace{-9pt}
 \label{fig:ch4_firstCorrectBlocks}
 \end{figure}
@@ -1118,7 +1121,7 @@ With the lockout time in the High-IAC condition removed, the same effects were f
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{images/Study2/ch4_placeholders.pdf}
-\caption{Participants placed blocks outside of the output window as `placeholders'.}
+\caption[Study 3 placeholders]{Participants placed blocks outside of the output window as `placeholders'.}
 \vspace{-9pt}
 \label{fig:ch4_placeholders}
 \end{figure}
@@ -1202,20 +1205,27 @@ A within-subjects design will be used. The independent variables will be type of
 It is expected people will develop strategies as they have to enter data over an extended period of time. 
 For example, they may initially look up each data item the moment they need it, but as they become familiar with the IAC of sources, they may first finish entering all information from low IAC sources, before looking up information of high IAC sources. 
 
-Office workers from Study 1 and 2 have experience with entering expenses and have found ways to optimise their work. If it is not possible for this user group to participate in the laboratory experiments, I will have to pilot it to see how long the experiment needs to run, in order to allow enough time for participants to exhibit changes in strategies. For example, people might need to conduct the experiment for an hour, or come in for multiple sessions.
+Office workers from Study 1 and 2 have experience with entering expenses and have found ways to optimise their work. If it is not possible for this user group to participate in the laboratory experiments, I will have to pilot it to see how long the experiment needs to run, in order to allow enough time for participants to exhibit changes in strategies. The same ethical considerations as described in Study 2 (section \ref{sec:quanethics}) will be made, and participants will be given the opportunity to take breaks during the experiment. If the total required duration of the experiment exceeds an hour, the experiment will be broken down in multiple sessions.
 
 The identified behaviour of how people manage looking up information is used to create a set of design recommendations for the current expenses system, which are evaluated in Study 5 and 6.
 
 \subsubsection{Hypotheses}
+Based on previous IAC studies and findings from Study 3, the following hypotheses can be made: 
 \begin{itemize}
 \item
-As IAC increases, people try to memorise and copy over more data from one source in one go.
-
+As IAC increases, people try to memorise and copy over more data from one source in one go. 
 \item 
-People will initially enter data in the order in which they are presented on the computer. They will look up items at the moment in the task they need it.
+People will look longer at a high IAC source than a low IAC source.
+\end{itemize}
+This means that people will interrupt from entering data into the computer to look up information a longer time for a high IAC source than a low IAC source. Studies have shown that the longer people are interrupted from a primary task, the slower they are to resume that task after the interruption \citep[e.g.][]{Monk2008}. Based on this, the following hypothesis is made:
+\begin{itemize}
 \item 
-As the experiment progresses and they become aware how costly it is to access certain sources, people will learn and choose to enter all the low-IAC items first, in a batch, and then the high-IAC items second, also in a batch, rather than looking up each item as they need it. 
- 
+People will be slower to resume the entry task after retrieving data from a high IAC source than a low IAC source.
+\end{itemize}
+The soft constraints hypothesis predicts that people choose and adapt their task strategies in order to minimise time. Based on this theory and findings from Study 1 that people try to save up data entry tasks to enter them in one sequence, the following hypothesis is made: 
+\begin{itemize}
+\item 
+As the experiment progresses and people become aware how costly it is to access certain sources, they will learn and choose to enter all the low-IAC items first, in a batch, and then the high-IAC items second, also in a batch, rather than looking up each item as they need it. 
 \end{itemize}
 
 \subsubsection{Contributions}
