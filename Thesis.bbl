@@ -1818,6 +1818,40 @@ Robertson, G.%
 
 \bibitem [\protect \citeauthoryear {%
 Rule%
+, Tabard%
+, Boyd%
+\BCBL {}\ \BBA {} Hollan%
+}{%
+Rule%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Rule2015}
+\APACinsertmetastar {%
+Rule2015}%
+\begin{APACrefauthors}%
+Rule, A.%
+, Tabard, A.%
+, Boyd, K.%
+\BCBL {}\ \BBA {} Hollan, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Restoring the Context of Interrupted Work with Desktop
+  Thumbnails}} {{Restoring the Context of Interrupted Work with Desktop
+  Thumbnails}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 37th Annual Meeting of the Cognitive
+  Science Society} {Proceedings of the 37th annual meeting of the cognitive
+  science society}\ (\BPGS\ 2045--2050).
+\newblock
+\APACaddressPublisher{Pasadena, USA}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rule%
 \ \BBA {} Youngstrom%
 }{%
 Rule%

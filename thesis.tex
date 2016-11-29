@@ -13,6 +13,7 @@
 \usepackage{tabularx}
 \usepackage{fontspec}
 
+
 \linespread{1.3}
 
 \usepackage{lmodern}
@@ -34,14 +35,14 @@
 %leftline=false,
 %rightline=false,
 linewidth=1pt,
-%font={\sffamily},
+\setmainfont{Gill Sans MT},
 innertopmargin=10pt,
 innerbottommargin=20pt,
 innerrightmargin=20pt,
 ]{mynote}
 
 \begin{document}
-\setmainfont{Gill Sans MT}
+%\setmainfont{Gill Sans MT}
 \input{title.tex}
 
 \begin{abstract}
@@ -334,7 +335,7 @@ People sometimes had to switch between several information sources and applicati
 
 The authors conclude mobile devices should take into account the activity people are doing to make sure information related to a task becomes easy to access. Though it may be difficult to predict which information will be needed, it should be at least easier for users to switch between different information sources.
 
-The information needs in this study were primarily for private rather than work activities, and people may be less flexible in deciding to not look up information at all when it is work-related. They may however decide to look up information later, and if it is costly to access information or depending on importance of accuracy or efficiency, decide to rely on information they have memorised rather than looking up the information of an external source. 
+The information needs in this study were primarily for personal rather than work activities, and people may be less flexible in deciding to not look up information at all when it is work-related. They may however decide to look up information later, and if it is costly to access information or depending on importance of accuracy or efficiency, decide to rely on information they have memorised rather than looking up the information of an external source. 
 
 \subsubsection{Summary}
 Office work can be highly fragmented, and people have to go in and out of several documents, applications and windows for the same activity. It is often up to the user to collect information, and it should be made easier for people to collect information for a task and resume it when they leave the primary task interface to look up information. The cost to access information, the urgency and importance of an information need, and the current situation people are in influences their decision on whether they look up information as they need it or not. 
@@ -342,7 +343,7 @@ Office work can be highly fragmented, and people have to go in and out of severa
 \section{Conclusion}
 Data entry follows four stages, and there are multiple strategies to complete the task, some being more accurate or efficient than others. Studies have shown that changing the design of a data entry interface can affect and improve how we enter data, and that different information access costs affect how often people visit the source from which to look up and enter data.
 
-It is not known yet how these designs can be used in an office setting, where people have to manage multiple information sources with varying information access costs. Studies on office work have shown that work can be highly fragmented, and that people may often have to go in and out of several applications to complete their task. 
+It is not known yet how these data entry designs can be used in an office setting, where people have to manage multiple information sources with varying information access costs. Studies on office work have shown that work can be highly fragmented, and that people may often have to go in and out of several applications to complete their task. 
 In order to design interactive systems that truly support this type of data entry task, it is necessary to get a detailed understanding of the task in this setting, how users manage subtasks of looking up information for the data entry task, and to what extent the costs to access required resources affect their strategies.
 
 \chapter{Entering expenses in a financial setting}\label{ch:Study1}
@@ -489,7 +490,7 @@ Some people worked according to a work cycle, which meant they did different thi
 
 The time spent on each task differed: checking data on a short expenses form could be completed in two minutes, while a single calculation could take between 20 and 30 minutes. Two participants experienced dealing with a lot of data entry as tiresome.
 
-\pagebreak
+\newpage
 
 \subsubsection{Checking}\label{subsec:Checking}
 \begin{figure}[!ht]
@@ -551,7 +552,7 @@ People had to both check their own data input, as well as double-check other peo
     \label{table:ch3_otherinputquotes}
 \end{table}%
 
-\pagebreak
+\clearpage
 \subsubsection{System}
 \begin{figure}[!ht]
 \centering
@@ -673,7 +674,7 @@ P1 highlighted project IDs used to be letters but are now numbers, which are har
     \label{table:ch3_acceptableerrorsquotes}
 \end{table}%
 
-\newpage
+\clearpage
 \subsubsection{Strategy}
 \begin{figure}[!ht]
 \centering
@@ -796,7 +797,7 @@ Eight of nine participants batched data entry tasks to do them all at once, rath
 There were different reasons behind the strategy to enter a large amount of data in one sequence. One participant received forms in a bulk, and felt time pressure to finish them all at once, rather than spread them over time. The other seven participants said they received forms on an ad-hoc basis, but deliberately saved them until a specific moment and then processed them all in a bulk. They preferred to focus on one task at once, and some people stated that it made them faster in entering data after a while. 
 
 This is consistent with Healy et al.'s \citeyearpar{Healy2004} study, where learning effects could be measured in a number entry task. However, in their experiment participants became faster but also more erroneous in entering data. In the current study, P3 mentioned that most of the errors she picks up from colleagues are typos caused by rushing to finish the task. P4 mentioned that he wants to enter numbers accurately, but that there is a time pressure to finish things in time. This is in line with the speed-accuracy trade-off discussed in literature, and that a sense of urgency may cause people to enter numbers faster but at the expense of a higher error rate \citep{Lin2011, Lin2013}.
-\citet{Healy2004} recommended regular breaks when entering large amounts of data to maintain accuracy, but P4 in the current study explained it is difficult to take breaks, when he feels a time pressure to finish it.
+\citet{Healy2004} recommended regular breaks when entering large amounts of data to maintain accuracy, but P4 in the current study explained it is difficult to initiate breaks himself, when he feels a time pressure to finish it.
 
 \subsubsection{Multiple checking stages}
 In order to prevent errors, input was entered and checked by multiple people before it was allowed to be submitted into the system. This checking method is similar to \citeauthor{Reason1990}'s \citeyearpar{Reason1990}  Swiss Cheese model, where multiple checking layers are used to minimise the risk of errors. However, as a result of this people seemed less careful in checking their own input, because they knew it would be checked by someone else. 
@@ -829,14 +830,16 @@ The purpose of this study is to investigate the information sources people need 
 
 Ten finance employees will be observed at their workplace, with a particular focus on the information resources they need and use for entering expense claims into the financial computer system. I will shadow them doing their work, and will ask them to demonstrate the task while thinking aloud. They will be interviewed afterwards  and I will ask them questions about observations I made. 
 
-In order to better understand how people switch between applications for office work, \citet{Cangiano2009} made screen recordings of workers' activities in a law office. They then played these back to the workers, and asked them to explain their activities. These screen recordings were useful for workers to accurately recall what they were doing at the captured moments, and why they had certain windows open. If allowed, employees in the current study will be asked to make screen recordings of doing an expenses task and will be video recorded. 
+In order to better understand how people switch between applications for office work, \citet{Cangiano2009} made screen recordings of workers' activities in a law office. They then played these back to the workers, and asked them to explain their activities. These screen recordings were useful for workers to accurately recall what they were doing at the captured moments, and why they had certain windows open. 
+
+One of the advantages of using screen recordings is that it provides a detailed account of activity, however there are also privacy issues and not all participants agree their activity to be recorded \citep{Rule2015}. In a finance setting, there are additional confidentiality issues and participants may not be allowed to share financial data. Participants in the current study will instead be video recorded while doing the expenses task. The video recordings capture the participants' interactions with the artefacts involved in the task, but the financial data on the information sources cannot be identified from these recordings. The video recordings will be used to supplement my written observation notes, and after the observation part of the study, some video segments may get played back to participants and they will be asked to explain what they were doing at certain moments.
 
 \subsection{Method}
 \subsubsection{Participants}
 Ten participants will take part in the study. They will be employees from financial offices at public universities dealing with processing expense claims. A combination of convenience and snowball sampling will be used to recruit the participants. Convenience sampling will be applied by distributing flyers, sending invitations to opt-in mailing lists of Finance departments from several universities, and by asking people from the user group that are familiar to the researcher. In addition, snowball sampling will be used by asking participants if they know colleagues who would potentially be interested to participate in the study. 
 Ideally a range of experience levels will be included, from beginner to experienced level. Participants will be reimbursed with \pounds15 and be entered in a prize draw to win \pounds50. 
 
-\subsubsection{Data collection}
+\subsubsection{Contextual inquiry}
 My data collection will be informed by using the methodological approach of contextual inquiry.
 Contextual inquiry is a combination of observation and interviewing users and their everyday work, with the aim to use the findings to inform design of the systems they use \citep{Beyer1998}.
 \citet{Beyer1998} argue that observing participants carrying out their work can reveal concrete details, and it can help participants to recall past situations of carrying out work. It is therefore considered to be an appropriate method for the aims of this thesis, as it involves understanding users' expenses work with the aim to translate it into design implications for their expenses system. 
@@ -858,11 +861,12 @@ In this part, the participant will do his/her work while I observe and make note
 \item 
 Summary
 
-In the final stage, I will ask questions about observations I made. I will summarise to the participant what I have found and check if this is correct. The participant will be thanked and debriefed.
+In the final stage, I will ask questions about observations I made. I will summarise to the participant what I have found and check if this is correct. If some parts of the observation need clarification, segments of the video recording may get played back to participants, and they will be asked to explain what they were doing at certain moments.
+The participant will be thanked and debriefed.
 \end{enumerate}
 
 \subsubsection{Materials}
-Materials that will be used during the contextual inquiry are a voice recorder to record the interview, an interview script with guiding questions, a checklist to guide the observation and think-aloud part, a notebook and pen to make notes, and a consent form and information sheet for the participant.
+Materials that will be used during the contextual inquiry are a voice recorder, a video camera, an interview script with guiding questions, a checklist to guide the observation and think-aloud part, a notebook and pen to make notes, and a consent form and information sheet for the participant.
 A number of interview questions will be written out beforehand. These questions are used as a starting point to get the participant talking and guide the interview. Based on what the participant is saying follow-up questions will be asked. 
 
 \subsubsection{Pilot study}
@@ -879,14 +883,21 @@ It was therefore decided after this study to not conduct a diary study but inste
 The study has ethical approval from the UCL Research Ethics Committee [Project ID Number UCLIC/1415/001/Staff Brumby/Borghouts]. 
 
 The advertisement will include what participants will be asked to do and what their reimbursement will be. 
-Participants will be briefed at the beginning of the interview. They are then asked to read and sign a consent form, and are given an information sheet with the study information and my contact details for them to keep. 
+Participants will be briefed at the beginning of the study. They are then asked to read and sign a consent form, and are given an information sheet with the study information and my contact details for them to keep. 
 It will be explained they are free to withdraw from the study at any time, and that their data will be used for research purposes only. They will be asked for permission to audio record the interview, and video record them doing their work. It will be explained that the purpose of the study is to get a better understanding of how they normally go about their work with an aim to improve the system, and that there are no right or wrong ways of doing tasks. 
+
+It will be explained that the purpose of data collection through photographs, screenshots, audio and video recordings  is to get an understanding of the information sources and interactions involved in an expenses task. Prior to the video part of the study, participants will review the setup of the video camera to confirm the camera is set up appropriately and does not capture any confidential data.
 
 Participants will be informed that the data will be used for research purposes only and stored in accordance with the Data Protection Act 1998. Their data will be anonymised and when used in a report or academic paper, their data will not be directly identifiable. Names of participants or the organisations they are working at will not be included in the interview notes and transcripts.
 
-
 \subsection{Data collection and analysis}
-The interviews will be transcribed verbatim, and transcripts will be analysed using thematic analysis. The data analysis program Atlas.ti will be used to code the data. The video recordings will be used to complement my notes taken during observation, and will primarily be used to identify information sources used for the expenses task. 
+The sessions will be audio recorded, and the interviews and think-aloud verbal protocols will be transcribed verbatim. I will take written notes during the think-aloud and observation parts of the study. The transcripts and notes will be analysed using thematic analysis. The data analysis program Atlas.ti will be used to code the data. 
+
+The think-aloud and the observation part of the study will be video recorded. The video recordings will be used to complement my notes taken during observation. Furthermore, some segments will get played back to participants at the final stage of the study and they will be asked to explain what they were doing at certain moments.
+
+The video recordings will be used to identify information sources involved in the expenses task, and the frequency and timing of visits to each information source during the task.
+
+Screenshots and photographs of the information sources will be collected.
 
 \subsubsection{Expected findings}
 \begin{itemize}
@@ -1015,7 +1026,7 @@ They were then asked to read and sign a consent form and given an information sh
 
 \subsubsection{Ethical considerations}\label{sec:quanethics}
 The study was undertaken with ethical approval from the UCL Research Ethics Committee [Project ID Number UCLIC/1415/001/Staff Brumby/Borghouts]. 
-At the start of each study, participants were first briefed verbally about the study. They were asked to read and sign a consent form, and were given an information sheet to keep. This information sheet contained a summary of the study information and the researchers' contact details. It was explained that an eyetracker would record their eye fixations and movements, but that they would not be video recorded and that they would not be directly identifiable from these recordings. After participants had completed the first part of the experiment, a prompt appeared on the screen advising them to take a short break. Participants were free to choose when to finish the break and continue with the second part of the experiment.
+At the start of each study, participants were first briefed verbally about the study. They were asked to read and sign a consent form, and were given an information sheet to keep. This information sheet contained a summary of the study information and the researchers' contact details. It was explained that an eyetracker would record their eye fixations and movements, but that these recordings were anonymous and that they would not be directly identifiable. After participants had completed the first part of the experiment, a prompt appeared on the screen advising them to take a short break. Participants could take a break as long as they wanted and could decide themselves when to continue with the second part of the experiment.
 
 Participants were informed that the data would be used for research purposes only and stored in accordance with the Data Protection Act 1998. They were also informed that their data would be anonymised and when used in a report or academic paper, their data would not be directly identifiable. 
  
@@ -1118,6 +1129,10 @@ Looking at the actual completion time, participants took longer to complete a tr
 With the lockout time in the High-IAC condition removed, the same effects were found for block type, F(1,30) = 34.55, p<.001, $\eta^2$ = 0.54, and IAC, F(2,30) = 8.18, p=0.001, $\eta^2$ = 0.35. Tukey post-hoc comparisons show there was still a difference between Low and High (p=.001), but no longer between the Medium IAC and Low IAC or High IAC conditions (ps >.1). There was a significant interaction effect between IAC and block type, F(2,30) = 8.13, p=.002, $\eta^2$ = 0.35.
 
 \subsubsection{Qualitative data}
+The screen recordings from the eye-tracker were played back to further investigate people's behaviour. Although this helped understand some behaviour which could not be determined from the quantitative data alone, these observations only serve to explain some of the quantitative measures and are not the main focus of the analysis.
+
+The visit durations in the Medium IAC condition were suspiciously short. Upon replaying the screen recordings, it appeared that participants often accidentally moved their cursor over the grey mask of the target source. This was counted as a visit by the program, even though participants may have not intentionally moved their cursor to this part of the screen to look at the target source. They did not spend a long time looking at the target window, but also did not immediately move blocks either, and sometimes waited multiple seconds before they made a move. 
+
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{images/Study2/ch4_placeholders.pdf}
@@ -1125,13 +1140,13 @@ With the lockout time in the High-IAC condition removed, the same effects were f
 \vspace{-9pt}
 \label{fig:ch4_placeholders}
 \end{figure}
-The screen recordings from the eye-tracker were played back to further investigate people's behaviour. Although this helped understand some behaviour which could not be determined from the quantitative data alone, these observations only serve to explain some of the quantitative measures and are not the main focus of the analysis.
-
-The visit durations in the Medium IAC condition were suspiciously short. Upon replaying the screen recordings, it appeared that participants often accidentally moved their cursor over the grey mask of the target source. This was counted as a visit by the program, even though participants may have not intentionally moved their cursor to this part of the screen to look at the target source. They did not spend a long time looking at the target window, but also did not immediately move blocks either, and sometimes waited multiple seconds before they made a move. 
 
 During the 1-s lockout in the High IAC condition, participants changed their minds about visiting the target window on numerous occasions. They placed their mouse cursor on the mask, but left this field before it was uncovered to move one or more blocks. It could be this decision also occurred in the Medium IAC condition, but as there was no lockout the mask was already uncovered before people made this decision, and would explain the very short visits.
 
 People sometimes placed the blocks as `placeholders' as shown in Figure \ref{fig:ch4_placeholders}: they placed several blocks outside of the output window next to the position they thought it belonged to, but did not place it there yet. Only after viewing the target again, they placed the blocks in the output window. Looking at quantitative data alone, this type of strategy would be depicted as one long view at the target, after which all blocks were placed in one go. This is true to some extent, but as people could already place the blocks and offload their memory without this being recorded by the program, they only had to check if this position was correct on the subsequent visit, and is different from a strategy where people spent a long time trying to memorise the blocks after which all blocks were placed.
+
+
+\newpage
 
 \subsection{Discussion}
 This study replicated the Blocks World Task with the aim to see if the effect on IAC on a copying task, as previously found when using colours, can be extended to copying numbers, and if a deeper encoding of numbers into memory makes people more accurate.
